@@ -1,3 +1,21 @@
+## 📂 Navigation (Click to Explore)
+
+### 🏢 [Agile Transformation Strategy](./strategy/complete-transformation-playbook.md)
+*The 10-step roadmap for Shping.com, legacy migration, and maturity models.*
+
+### 📊 [Metrics & Data Visualization](./metrics/README.md)
+*Power BI and ClickUp integration for real-time tracking.*
+
+### 👥 Role-Specific Guides
+* [**Product Owner Guide**](./roles/product-owner/README.md) - Prioritization & Backlog Health.
+* [**Scrum Master Guide**](./roles/scrum-master/README.md) - Facilitation & Conflict Resolution.
+* [**DevOps & AWS Lambda**](./roles/devops/README.md) - CI/CD and Serverless workflows.
+* [**QA & Quality Gates**](./roles/qa/README.md) - Agile testing standards.
+
+### 🤝 [Team Workflows](./team-workflows/README.md)
+*Onboarding and multicultural team norms.*
+
+
 # Agile Ceremony Templates
 
 This repository contains facilitation guides and templates for key Scrum ceremonies:
@@ -20,7 +38,6 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 - `/roles/devops` → AWS Lambda CI/CD logic and Bitbucket automation.
 - `/team-workflows` → Onboarding checklists and multicultural norms.
 - `/metrics` → Screenshots/docs of Power BI + ClickUp integration.
-
 
 
 ## 📋 How to use
