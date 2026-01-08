@@ -3,16 +3,16 @@
 ### 🏢 [Agile Transformation Strategy](./strategy/complete-transformation-playbook.md)
 *The 10-step roadmap for Shping.com, legacy migration, and maturity models.*
 
-### 📊 [Metrics & Data Visualization](./metrics/README.md)
+### 📊 [Metrics & Data Visualization](./metrics/)
 *Power BI and ClickUp integration for real-time tracking.*
 
 ### 👥 Role-Specific Guides
 * [**Product Owner Guide**](./role/product-owner/) - Prioritization & Backlog Health.
-* [**Scrum Master Guide**](./role/scrum-master/) - Facilitation & Conflict Resolution.
+* [**Scrum Master Guide**](./role/scrum-master/)) - Facilitation & Conflict Resolution.
 * [**DevOps & AWS Lambda**](./role/devops/) - CI/CD and Serverless workflows.
 * [**QA & Quality Gates**](./role/qa/) - Agile testing standards.
 
-### 🤝 [Team Workflows](./team-workflows/README.md)
+### 🤝 [Team Workflows](./team-workflows/)
 *Onboarding and multicultural team norms.*
 
 
