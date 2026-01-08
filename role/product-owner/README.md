@@ -6,7 +6,7 @@ The primary purpose of the **Product Owner (PO)** is to serve as the **Value Max
 ---
 
 ## 🏛️ Core Accountabilities (Scrum.org Standard)
-[cite_start]The Product Owner is the **sole person accountable** for the success of the product and for managing the Product Backlog[cite: 7, 640].
+The Product Owner is the **sole person accountable** for the success of the product and for managing the Product Backlog.
 
 * **Vision Definer:** Responsible for defining and communicating the product vision to the entire Scrum team and stakeholders.
 * **Backlog Manager:** Creating, maintaining, and prioritizing the Product Backlog to ensure it is always aligned with business priorities and customer needs.
@@ -28,7 +28,7 @@ Integrating AI into the PO workflow allows for faster data processing and more s
 ---
 
 ## 🛠️ Essential Artifacts & Techniques
-[cite_start]The PO uses specific tools to define the product journey and manage scope[cite: 10, 140].
+The PO uses specific tools to define the product journey and manage scope.
 
 ### 1. Product Definition Tools
 * **Empathy Map:** Captures what users think, feel, see, and do to solve real problems.
@@ -59,6 +59,6 @@ Use **Tableau** to visualize these critical metrics and ensure data-driven trans
 * **Shadowing:** Observe users in their natural environment to uncover "unspoken" needs.
 * **Continuous Refinement:** Dedicate 5-10% of every sprint to grooming the backlog.
 * **Socratic Questioning:** Use structured inquiry to better listen to and understand the customer.
-* [cite_start]**Lean & Kanban Integration:** Apply Lean principles to reduce waste and Kanban boards to visualize workflow transparency[cite: 20, 497].
+* **Lean & Kanban Integration:** Apply Lean principles to reduce waste and Kanban boards to visualize workflow transparency.
 
 ---
