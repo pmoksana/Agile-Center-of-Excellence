@@ -1,4 +1,4 @@
-# 📂 Product Owner: Role & Best Practices
+## 📂 Product Owner: Role & Best Practices
 
 ## 🎯 Purpose
 The primary purpose of the **Product Owner (PO)** is to serve as the **Value Maximizer** for the product. This role acts as the essential bridge between organizational strategy, stakeholder needs, and the technical execution of the Scrum Team.
