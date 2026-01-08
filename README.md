@@ -7,10 +7,10 @@
 *Power BI and ClickUp integration for real-time tracking.*
 
 ### 👥 Role-Specific Guides
-* [**Product Owner Guide**](./roles/product-owner/README.md) - Prioritization & Backlog Health.
-* [**Scrum Master Guide**](./roles/scrum-master/README.md) - Facilitation & Conflict Resolution.
-* [**DevOps & AWS Lambda**](./roles/devops/README.md) - CI/CD and Serverless workflows.
-* [**QA & Quality Gates**](./roles/qa/README.md) - Agile testing standards.
+* [**Product Owner Guide**](./roles/product-owner) - Prioritization & Backlog Health.
+* [**Scrum Master Guide**](./roles/scrum-master) - Facilitation & Conflict Resolution.
+* [**DevOps & AWS Lambda**](./roles/devops) - CI/CD and Serverless workflows.
+* [**QA & Quality Gates**](./roles/qa/) - Agile testing standards.
 
 ### 🤝 [Team Workflows](./team-workflows/README.md)
 *Onboarding and multicultural team norms.*
