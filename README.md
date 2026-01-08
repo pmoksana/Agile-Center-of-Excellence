@@ -9,12 +9,26 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 ## 📂 Folder structure
 - `/daily-standup` → Standup formats and facilitation tips
 - `/sprint-planning` → Planning templates and estimation guides
+- `/sprint-review` → Review tips
+- `/sprint-retrospective` → Retro tips
 ...
 
+## 📂Folder Path, Purpose
+- `/strategy` → Transformation roadmap and maturity models.
+- `/roles/product-owner` → Guides on WSJF, MoSCoW, and Backlog health."
+- `/roles/scrum-master` → Facilitation guides and "Conflict Resolution" playbooks."
+- `/roles/devops` → AWS Lambda CI/CD logic and Bitbucket automation.
+- `/team-workflows` → Onboarding checklists and multicultural norms.
+- `/metrics` → Screenshots/docs of Power BI + ClickUp integration.
+
+
+
 ## 📋 How to use
-1. Browse ceremony folders
+1. Browse a folder
 2. Download templates or use Markdown guides
-3. Customize to fit your team needs
+3. Customize to fit a team needs
+   
 
 ## 📬 Contact
-Questions or suggestions? Connect with me on [LinkedIn](https://linkedin.com/in/oksana-fadyeyeva)
+Questions or suggestions? Reach me via email: [pmoksana.f@gmail.com](mailto:pmoksana.f@gmail.com)
+Connect with me on [LinkedIn](https://linkedin.com/in/oksana-fadyeyeva)
