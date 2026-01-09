@@ -7,10 +7,15 @@
 *Power BI and ClickUp integration for real-time tracking.*
 
 ### 👥 Role-Specific Guides
-* [**Product Owner Guide**](./role/product-owner/) - Prioritization & Backlog Health.
-* [**Scrum Master Guide**](./role/scrum-master/) - Facilitation & Conflict Resolution.
-* [**DevOps & AWS Lambda**](./role/devops/) - CI/CD and Serverless workflows.
-* [**QA & Quality Gates**](./role/qa/) - Agile testing standards.
+* [**Product Owner Guide**](./role/product-owner/) - Accountable for maximizing product value and backlog transparency.
+* [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
+* [**Development Team Guide**](./role/development-team/) - Professionals committed to creating any aspect of a usable Increment.
+* [**DevOps**](./role/devops/) - CI/CD and Serverless workflows, AWS Lambda.
+* [**QA**](./role/qa/) - Agile testing standards, Quality Gates.
+
+## 🛠️ Global Resources
+* [**Agile Metrics Dashboard**](./metrics/)
+* [**AI Product Tooling**](./tools/ai-automation/)
 
 ### 🤝 [Team Workflows](./team-workflows/)
 *Onboarding and multicultural team norms.*
