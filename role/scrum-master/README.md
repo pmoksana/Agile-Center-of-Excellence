@@ -1,7 +1,8 @@
 
-## ⬅️ Main [**Strategic Guide for Scaled Agile & Digital Transformation**] (./strategy/)
 
 
+[⬅️ Back to Main Guide](../../)
+---
 ## 📂 Scrum Master: Role & Best Practices
 
 ## 🎯 Purpose
