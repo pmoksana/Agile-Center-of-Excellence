@@ -1,6 +1,8 @@
-## 📂 Navigation (Click to Explore)
 
-### 🏢 [Agile Transformation Strategy](./strategy/complete-transformation-playbook.md)
+# Agile Transformation Playbook
+### A Strategic Guide for Scaled Agile & Digital Transformation
+
+### 🏢 [Agile Transformation Strategy](./strategy/)
 *The 10-step roadmap for Shping.com, legacy migration, and maturity models.*
 
 ### 📊 [Metrics & Data Visualization](./metrics/)
