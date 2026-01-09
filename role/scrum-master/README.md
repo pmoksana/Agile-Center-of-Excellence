@@ -1,3 +1,7 @@
+
+## 📂 Main [Strategic Guide for Scaled Agile & Digital Transformation] (./strategy/Agile-Center-of-Excellence/)
+### 👥 Role-Specific Guides
+
 ## 📂 Scrum Master: Role & Best Practices
 
 ## 🎯 Purpose
