@@ -8,7 +8,7 @@
 
 ### 👥 Role-Specific Guides
 * [**Product Owner Guide**](./role/product-owner/) - Prioritization & Backlog Health.
-* [**Scrum Master Guide**](./role/scrum-master/)) - Facilitation & Conflict Resolution.
+* [**Scrum Master Guide**](./role/scrum-master/) - Facilitation & Conflict Resolution.
 * [**DevOps & AWS Lambda**](./role/devops/) - CI/CD and Serverless workflows.
 * [**QA & Quality Gates**](./role/qa/) - Agile testing standards.
 
