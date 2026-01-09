@@ -31,6 +31,9 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 - 🔍 Sprint Review
 - 🔄 Sprint Retrospective
 
+## 📋 Ceremonies Preparation Checklist
+  * [**Ceremonies Preparation Checklist**](./ceremony/) - What to Bring & How to Prepare for Success.
+
 ## 📂 Folder structure
 - `/daily-standup` → Standup formats and facilitation tips
 - `/sprint-planning` → Planning templates and estimation guides
