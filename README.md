@@ -20,7 +20,8 @@
 * [**AI Product Tooling**](./tools/ai-automation/)
 
 ## 🎯  Mission and Vision
-*  * [**Strategic Alignment: The Future of Shping.com**](./mission-vision.md)
+*  [**Strategic Alignment: The Future of Shping.com**](/mission-vision.md)
+
 
 
 ### 🤝 [Team Workflows](./team-workflows/)
