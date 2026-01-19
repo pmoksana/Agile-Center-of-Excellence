@@ -1,10 +1,11 @@
 # Agile Transformation Playbook
-### A Strategic Guide for Scaled Agile & Digital Transformation
 
 
 [⬅️ Back to Main Guide](../../)
 ---
-## 📂 Scrum Master: Role & Best Practices
+
+
+## Scrum Master: Role & Best Practices
 
 ## 🎯 Purpose
 The **Scrum Master** is a servant-leader and coach for the Scrum Team and the broader organization. Their primary purpose is to establish Scrum by helping everyone understand and apply its theory and practice to increase effectiveness.
