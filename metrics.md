@@ -1,6 +1,8 @@
 # 📊 Metrics & Data Visualization
 > Powering the team with Real-Time Engineering Insights
----
+
+
+
 [⬅️ Back to Main Guide](../../)
 ---
 
@@ -108,7 +110,4 @@ If a squad falls into the **Needs Attention** category:
 * [**View Working Agreements**](/Working-Agreements/commitment.md)
 
 
----
-* [⬅️Back to Agile Center of Excellence**](../README.md)
-* [⬅️ Back to Main Guide](../../)
----
+
