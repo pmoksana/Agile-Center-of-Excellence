@@ -1,9 +1,4 @@
 
-
-
-[← Back to Home](https://pmoksana.github.io/Agile-Center-of-Excellence/)
----
-
 # 🎯 Strategic Alignment: The Future of Shping.com
 
 To transition from legacy "Spaghetti" code to a world-class platform, our team must be aligned on how we connect brands to consumers through the power of Cloud and Web3 technologies.
@@ -104,5 +99,9 @@ Global Examples:
 >Hilton: Fill the earth with the light and warmth of hospitality.
 
 >Gucci: Reinvent a wholly modern approach to fashion for the 21st century.
+
+---
+[← Back to Home](https://pmoksana.github.io/Agile-Center-of-Excellence/)
+---
 
 
