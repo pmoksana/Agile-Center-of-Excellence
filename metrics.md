@@ -1,5 +1,5 @@
 # 📊 Metrics & Data Visualization
-> **Powering the team with Real-Time Engineering Insights
+> Powering the team with Real-Time Engineering Insights
 ---
 
 
@@ -55,7 +55,7 @@ To ensure our visualizations are accurate, every team member commits to:
 ---
 
 ## 🚀 Performance Benchmarks: What "Good" Looks Like
-To drive excellence at Shping.com, we measure our progress against modern engineering standards. While our own baseline is our primary focus, these benchmarks help us identify where our **AWS Lambda** workflows or **Brand Onboarding** processes can be optimized.
+To drive excellence we measure our progress against modern engineering standards. While our own baseline is our primary focus, these benchmarks help us identify where our **AWS Lambda** workflows or **Brand Onboarding** processes can be optimized.
 
 ### 📊 Delivery & Flow Standards
 
@@ -84,7 +84,7 @@ We categorize our engineering effort to ensure we are scaling **Shping.com** eff
 ## 🔍 How to Use These Metrics at Shping
 
 ### ⚡ Speed (Lead Time & PR Cycle)
-At Shping, we aim for **PR Cycle Times under 24 hours**. This ensures that brand-specific updates and redesign components move through our pipeline without creating bottlenecks.
+We aim for **PR Cycle Times under 24 hours**. This ensures that brand-specific updates and redesign components move through our pipeline without creating bottlenecks.
 
 ### 🧪 Batch Size & Risk
 We prioritize **small batches (<200 lines)**. Smaller changes are easier to test on our mobile automation suites and carry significantly less risk when deploying to our AWS Lambda production environment.
@@ -109,7 +109,8 @@ If a squad falls into the **Needs Attention** category:
 ---
 * [**⬅️Back to Agile Center of Excellence**](../README.md)
 
-* 
+---
+
 [⬅️ Back to Main Guide](../README.md)
 
 ---
