@@ -8,7 +8,7 @@ description: A Strategic Guide for Scaled Agile & Digital Transformation
 *The 10-step roadmap for legacy migration, and maturity models.*
 
 ### 📊 [Metrics & Data Visualization]
-* [**Agile Metrics Dashboard**](/metricks/)
+* [**Agile Metrics Dashboard**](./metrics.md)
 *Power BI and ClickUp integration for real-time tracking.*
 
 ### 👥 Role-Specific Guides
