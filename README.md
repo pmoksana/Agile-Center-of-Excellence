@@ -1,6 +1,8 @@
 
-# Agile Transformation Playbook
-### A Strategic Guide for Scaled Agile & Digital Transformation
+---
+title: Agile Transformation Playbook
+description: A Strategic Guide for Scaled Agile & Digital Transformation
+
 
 ### 🏢 [Agile Transformation Strategy](./strategy/)
 *The 10-step roadmap for Shping.com, legacy migration, and maturity models.*
