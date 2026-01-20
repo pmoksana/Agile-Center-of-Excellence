@@ -1,4 +1,6 @@
 
+
+
 [← Back to Home](https://pmoksana.github.io/Agile-Center-of-Excellence/)
 ---
 
@@ -54,14 +56,14 @@ We aren't just building a shopping app; we are building a gateway for the averag
 ## Why we need a product vision
 Truly good products are based on the needs of their customers. Otherwise, they may completely miss the mark and uniqness. Successful products need a product vision for these reasons:
 
-* **Understanding the customer's needs and consistently aligning product development with these goals.
-* **Description of the nature, features and functions the product should deliver
-* **Formulation of the company's goals to be met
-* **Orientation through a grand vision that unites all employees of the company
-* **Motivation through an achievable, common goal that a good corporate vision sets
-* **Derivation of values, strategy and the purpose of the company, which together flow into a great mission statement
-* **Inspiration through the corporate vision to develop special products with unique selling points
-* **Influencing the company's strategy to achieve the goals it has set for itself
+* Understanding the customer's needs and consistently aligning product development with these goals.
+* Description of the nature, features and functions the product should deliver
+* Formulation of the company's goals to be met
+* Orientation through a grand vision that unites all employees of the company
+* Motivation through an achievable, common goal that a good corporate vision sets
+* Derivation of values, strategy and the purpose of the company, which together flow into a great mission statement
+* Inspiration through the corporate vision to develop special products with unique selling points
+* Influencing the company's strategy to achieve the goals it has set for itself
 
 
 ###🚀 Mission vs. Vision: The Strategic Compass
@@ -75,6 +77,7 @@ Focus: Current state and societal contribution.
 Timeframe: Long-term, stable, and unshakeable.
 
 Goal: To provide orientation and clarity.
+
 
 Global Examples:
 
@@ -93,12 +96,13 @@ Timeframe: Medium to long-term (5–10 years); evolves as goals are reached.
 
 Goal: To provide motivation and inspiration.
 
+
 Global Examples:
 
 >LinkedIn: Create economic opportunity for every member of the global workforce.
 
 >Hilton: Fill the earth with the light and warmth of hospitality.
 
-Gucci: Reinvent a wholly modern approach to fashion for the 21st century.
+>Gucci: Reinvent a wholly modern approach to fashion for the 21st century.
 
 
