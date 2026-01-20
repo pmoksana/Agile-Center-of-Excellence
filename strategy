@@ -1,13 +1,18 @@
-[🏠 Home](https://pmoksana.github.io/Agile-Center-of-Excellence/) | [Strategy](./strategy/complete-transformation-playbook.md) | [Metrics](./metrics/README.md) | [Roles](./roles/scrum-master/README.md)
+---
+title: Agile Transformation Playbook
+description: A Strategic Guide for Scaled Agile & Digital Transformation
+
+[⬅️ Back to Main Guide](../../)
 ---
 
-# 🏛️ Comprehensive Digital Transformation Strategy: Shping.com
+# 🏛️ Comprehensive Digital Transformation Strategy 
+
 **Vision:** Transitioning from Legacy Technical Debt to a Cloud-Native Marketing Attribution & Growth Engine.
 
 ---
 
 ## 1. Organisation Assessment (The "Why")
-**Current State:** Shping.com operates on a monolithic "spaghetti" architecture. While functional, it creates a "bottleneck of change"—new marketing features take weeks to deploy due to regression risks.
+**Current State:** We operates on a monolithic "spaghetti" architecture. While functional, it creates a "bottleneck of change"—new marketing features take weeks to deploy due to regression risks.
 **The Objective:** Modernize the core to enable real-time analysis of brand advertisement campaigns and their direct correlation to purchase growth.
 
 ## 2. Define the Strategic "Why"
@@ -83,14 +88,14 @@ We prioritize based on **Cost of Delay**:
 ---
 **Author:** [Your Name]
 **Role:** Scrum Master / Agile Coach
-**Project:** Shping.com Transformation 2.0
+**Project:** Transformation 2.0
 
 
 
 
 # 📊 Leading Transformation through Data: ClickUp & Power BI Integration
 
-Agile Transformation is a journey of "Inspect and Adapt." As an Agile Leader, I use a custom-built data ecosystem to monitor the health of the **Shping.com** migration from legacy code to AWS cloud-native architecture.
+Agile Transformation is a journey of "Inspect and Adapt." As an Agile Leader, I use a custom-built data ecosystem to monitor the health of the code migration from legacy code to AWS cloud-native architecture.
 
 ## 1. The Data Architecture
 We bridge the gap between "Development Activity" and "Strategic Insight" by connecting our tools:
@@ -117,7 +122,7 @@ I use four specific dashboard views in Power BI to lead the adaptation:
 
 ### D. Say/Do Ratio (Predictability)
 * **Metric:** Completed vs. Committed story points.
-* **Adaptation:** Transformation creates uncertainty. Tracking predictability helps us set realistic expectations for stakeholders during the redesign of the Shping.com platform.
+* **Adaptation:** Transformation creates uncertainty. Tracking predictability helps us set realistic expectations for stakeholders during the redesign of the platform.
 
 ---
 
