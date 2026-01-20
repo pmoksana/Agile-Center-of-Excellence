@@ -1,7 +1,8 @@
 # 📊 Metrics & Data Visualization
 > Powering the team with Real-Time Engineering Insights
 ---
-
+[⬅️ Back to Main Guide](../../)
+---
 
 ## Data-Driven Agility
 We don't guess—we measure. By integrating **ClickUp** with **Power BI**, we transform raw task data into actionable insights, allowing us to identify bottlenecks in our Lambda deployments and brand onboarding flows in real-time.
@@ -108,4 +109,6 @@ If a squad falls into the **Needs Attention** category:
 
 
 ---
-* [**⬅️Back to Agile Center of Excellence**](../README.md)
+* [⬅️Back to Agile Center of Excellence**](../README.md)
+* [⬅️ Back to Main Guide](../../)
+---
