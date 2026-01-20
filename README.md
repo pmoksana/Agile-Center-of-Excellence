@@ -33,8 +33,8 @@ ___
 *Onboarding and multicultural team norms.*
 
 
-### [Agile Ceremony Templates]
-
+### Agile Ceremony Templates
+* [**Templates**](./ceremony.templates.md)
 This repository contains facilitation guides and templates for key Scrum ceremonies:
 - 🕰️ Daily Stand-up
 - 🎯 Sprint Planning
