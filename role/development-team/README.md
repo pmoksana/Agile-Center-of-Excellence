@@ -1,6 +1,7 @@
 
-# Agile Transformation Playbook
-### A Strategic Guide for Scaled Agile & Digital Transformation
+---
+title: Agile Transformation Playbook
+description: A Strategic Guide for Scaled Agile & Digital Transformation
 
 [⬅️ Back to Main Guide](../../)
 ---
@@ -131,6 +132,7 @@ Designers are the creative force behind a software's visual appeal and user expe
 * [**Scrum Master Guide**](../scrum-master/) — *Facilitator and servant-leader.*
 
  
+
 
 
 
