@@ -20,7 +20,7 @@
 * [**AI Product Tooling**](./tools/ai-automation/)
 
 ## 🤝  Working Agreement
-*  [**Working Agreement Guide**](working-agreement/commitment.md)
+*  [**Working Agreements Guide**](./Working-Agreements/commitment.md)
 
 
 ## 🎯  Mission and Vision
