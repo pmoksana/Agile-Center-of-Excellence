@@ -19,12 +19,16 @@
 * [**Agile Metrics Dashboard**](./metrics/)
 * [**AI Product Tooling**](./tools/ai-automation/)
 
+## 🤝  Working Agreement
+*  [**Working Agreement Guide**](working-agreement/commitment.md)
+
+
 ## 🎯  Mission and Vision
 *  [**Strategic Alignment: The Future of Shping.com**](/mission-vision.md)
 
 
 
-### 🤝 [Team Workflows](./team-workflows/)
+###  [Team Workflows](./team-workflows/)
 *Onboarding and multicultural team norms.*
 
 
