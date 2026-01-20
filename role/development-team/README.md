@@ -1,9 +1,8 @@
 
----
-title: Agile Transformation Playbook
-description: A Strategic Guide for Scaled Agile & Digital Transformation
+#  Agile Transformation Playbook
 
-[⬅️ Back to Main Guide](../../)
+> **A Strategic Guide for Scaled Agile & Digital Transformation
+
 ---
 
 #  Development Team: Role & Best Practices
@@ -123,15 +122,16 @@ Designers are the creative force behind a software's visual appeal and user expe
 * User Research: Conducting user research to understand user needs, preferences, and behaviors, gathering insights that inform the design process and ensure that the software meets the needs of its target audience. They use various research methods, such as surveys, interviews, and usability testing, to gather data and understand user perspectives. They are the user advocates, ensuring that the software is designed with the user in mind.
 
   For example, a Designer might use design software to create wireframes, mockups, and prototypes. They might conduct user interviews to gather feedback on design concepts and usability. They might also collaborate with developers to ensure that the final product aligns with the design specifications and user expectations.
-
-
-
+---
 
 ## 🔗 Related Documentation
 * [**Product Owner Guide**](../product-owner/) — *Accountable for maximizing product value.*
 * [**Scrum Master Guide**](../scrum-master/) — *Facilitator and servant-leader.*
-
+* 
+---
  
+[⬅️ Back to Main Guide](../../)
+---
 
 
 
