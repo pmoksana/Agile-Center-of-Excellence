@@ -110,4 +110,7 @@ If a squad falls into the **Needs Attention** category:
 * [**View Working Agreements**](/Working-Agreements/commitment.md)
 
 
+---
+[← Back to Home](https://pmoksana.github.io/Agile-Center-of-Excellence/)
+---
 
