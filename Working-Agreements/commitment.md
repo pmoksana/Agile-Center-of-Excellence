@@ -1,4 +1,4 @@
-# 🤝 Shping Engineering: Team Working Agreements
+# 🤝  Engineering: Team Working Agreements
 
 > **Our Social Contract:** Moving from unstated assumptions to explicit alignment for high-performing collaboration.
 
@@ -11,7 +11,7 @@ We agreed on what we want to do together with the whole team and make sure every
 For the dev team to work effectively and achieve their goals, we needed to decide on the ways of working and behaviors we want to follow to shared sense of responsibility, make it easier to identify and discuss both positive and negative behavior, empower the leader to keep the team accountable, and enhance the team's productivity.
 
 
-At Shping, working agreements describe exactly how we commit to interacting. They are not top-down mandates; they are behaviors we have collectively agreed to follow to reduce friction and improve our daily flow.
+At our company, working agreements describe exactly how we commit to interacting. They are not top-down mandates; they are behaviors we have collectively agreed to follow to reduce friction and improve our daily flow.
 
 Depending on the context, these are our "Rules of Engagement" or "Team Norms."
 
@@ -85,5 +85,6 @@ The best way to make these stick is to remove the "human" element where possible
 
 
 ---
-**Links:**
+[⬅️ Back to Main Guide](../../)
+---
 * [**Back to Agile Center of Excellence**](../README.md)
