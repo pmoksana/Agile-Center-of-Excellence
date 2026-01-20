@@ -40,13 +40,13 @@ We start our agreements with the phrase: *"As a team, we agree to..."*
 
 ### 🚀 "Definition of done"
 
-* **The change has sufficient automated tests
-* **Changes have been tested on the staging environment
-* **Code has been peer-reviewed
-* **All continuous integration (CI) checks pass
-* **Code is merged to the main branch and successfully deployed
-* **Relevant documentation is updated
-* **Task goal (acceptance criteria) is met
+* **The change has sufficient automated tests.
+* **Changes have been tested on the staging environment.
+* **Code has been peer-reviewed.
+* **All continuous integration (CI) checks pass.
+* **Code is merged to the main branch and successfully deployed.
+* **Relevant documentation is updated.
+* **Task goal (acceptance criteria) is met.
 
 
 ---
@@ -84,7 +84,5 @@ The best way to make these stick is to remove the "human" element where possible
 * / Sometimes this document is referred to as a "team contract" or "team agreement" and the listed working agreements as "team standards," "rules of engagement," "ground rules," "team norms," "team rules," or "collaboration guidelines."
 
 
----
-[⬅️ Back to Main Guide](../../)
 ---
 * [**⬅️Back to Agile Center of Excellence**](../README.md)
