@@ -106,11 +106,6 @@ If a squad falls into the **Needs Attention** category:
 * [**Review Team Workflows**](./team-workflows.md)
 * [**View Working Agreements**](./commitment.md)
 
+
 ---
 * [**⬅️Back to Agile Center of Excellence**](../README.md)
-
----
-
-[⬅️ Back to Main Guide](../README.md)
-
----
