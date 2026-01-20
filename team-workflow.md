@@ -66,9 +66,12 @@ Our infrastructure is built for scale using a Serverless-first approach on **AWS
 ---
 
 ## 🔗 Related Resources
-* [**Working Agreements: Our Commitment](./commitment.md)
-* [**Mission & Vision**](../mission-vision.md)
+* [**Working Agreements: Our Commitment](/Working-Agreements/commitment.md)
+* [**Mission & Vision**](/mission-vision.md)
 * [**AWS Lambda Architecture Docs**](../tech-stack/aws-lambda.md)
 
+
 ---
-[Return to Agile Center of Excellence Home](../README.md)
+[← Back to Home](https://pmoksana.github.io/Agile-Center-of-Excellence/)
+---
+
