@@ -22,11 +22,11 @@ description: A Strategic Guide for Scaled Agile & Digital Transformation
 * [**AI Product Tooling**](./tools/ai-automation/)
 
 ## 🤝  Working Agreement
-*  [**Working Agreements Guide**](./Working-Agreements/commitment.md)
+*  [**Working Agreements Guide**](./Working-Agreements/commitment.md/)
 
 
 ## 🎯  Mission and Vision
-*  [**Strategic Alignment: The Future of Shping.com**](/mission-vision.md)
+*  [**Strategic Alignment: The Future of Shping.com**](./mission-vision.md/)
 
 
 
@@ -44,7 +44,7 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 - 🔄 Sprint Retrospective
 
 ## 📋 Ceremonies Preparation Checklist
-  * [**Ceremonies Preparation Checklist**](./ceremony/) - What to Bring & How to Prepare for Success.
+  * [**Ceremonies Preparation Checklist**](./ceremony/ceremonies-prep-checklist.md) - What to Bring & How to Prepare for Success.
 
 ## 📂 Folder structure
 - `/daily-standup` → Standup formats and facilitation tips
