@@ -1,7 +1,7 @@
 
 #  Development Team: Role & Best Practices
 
-> **A Strategic Guide for Scaled Agile & Digital Transformation
+> **A Strategic Guide for Scaled Agile & Digital Transformation.
 
 ---
 
@@ -131,6 +131,7 @@ Designers are the creative force behind a software's visual appeal and user expe
  
 ---
 * [**⬅️Back to Agile Center of Excellence**](../README.md)
+
 
 
 
