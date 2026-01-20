@@ -1,11 +1,10 @@
 
-#  Agile Transformation Playbook
+#  Development Team: Role & Best Practices
 
 > **A Strategic Guide for Scaled Agile & Digital Transformation
 
 ---
 
-#  Development Team: Role & Best Practices
 
 ## 🎯 Purpose
 The **Development Team** consists of professionals who do the work of delivering a potentially releasable Increment of "Done" product at the end of each Sprint. They are the engine of delivery, committed to creating any aspect of a usable Increment.
@@ -132,6 +131,7 @@ Designers are the creative force behind a software's visual appeal and user expe
  
 [⬅️ Back to Main Guide](../../)
 ---
+
 
 
 
