@@ -4,10 +4,11 @@ title: Agile Transformation Playbook
 description: A Strategic Guide for Scaled Agile & Digital Transformation
 
 
-### 🏢 [Agile Transformation Strategy](./strategy/)
-*The 10-step roadmap for Shping.com, legacy migration, and maturity models.*
+* [**Agile Transformation Strategy**](/strategy/)
+*The 10-step roadmap for legacy migration, and maturity models.*
 
-### 📊 [Metrics & Data Visualization](./metrics/)
+### 📊 [Metrics & Data Visualization]
+* [**Agile Metrics Dashboard**](/metricks/)
 *Power BI and ClickUp integration for real-time tracking.*
 
 ### 👥 Role-Specific Guides
@@ -18,7 +19,6 @@ description: A Strategic Guide for Scaled Agile & Digital Transformation
 * [**QA**](./role/qa/) - Agile testing standards, Quality Gates.
 
 ## 🛠️ Global Resources
-* [**Agile Metrics Dashboard**](./metrics/)
 * [**AI Product Tooling**](./tools/ai-automation/)
 
 ## 🤝  Working Agreement
@@ -30,7 +30,8 @@ description: A Strategic Guide for Scaled Agile & Digital Transformation
 
 
 
-###  [Team Workflows](./team-workflows/)
+###  Team Workflows
+* [**Team Workflows**](./team-workflows/)
 *Onboarding and multicultural team norms.*
 
 
