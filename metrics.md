@@ -103,8 +103,8 @@ If a squad falls into the **Needs Attention** category:
 
 ---
 **Next Steps:**
-* [**Review Team Workflows**](./team-workflows.md)
-* [**View Working Agreements**](./commitment.md)
+* [**Review Team Workflows**](./team-workflow.md)
+* [**View Working Agreements**](/Working-Agreements/commitment.md)
 
 
 ---
