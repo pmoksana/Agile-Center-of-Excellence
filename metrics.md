@@ -3,8 +3,6 @@
 
 
 ---
-[⬅️ Back to Main Guide](../../)
----
 
 ## Data-Driven Agility
 We don't guess—we measure. By integrating **ClickUp** with **Power BI**, we transform raw task data into actionable insights, allowing us to identify bottlenecks in our Lambda deployments and brand onboarding flows in real-time.
