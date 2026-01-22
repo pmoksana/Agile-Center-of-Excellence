@@ -2,15 +2,12 @@
 
 #Agile Transformation Playbook
 A Strategic Guide for Scaled Agile & Digital Transformation
+*Roadmap for Agile maturity growth.*
+---
+##  Scrum Framework
+* [**Scrum**](./framework/scrum.md/)
 
-___
-* [**Agile Transformation Strategy**](./strategy.md/)
-*The 10-step roadmap for legacy migration, and maturity models.*
-
-### 📊 [Metrics & Data Visualization]
-* [**Agile Metrics Dashboard**](./metrics.md)
-*Power BI and ClickUp integration for real-time tracking.*
-
+  
 ### 👥 Role-Specific Guides
 * [**Product Owner Guide**](./role/product-owner/) - Accountable for maximizing product value and backlog transparency.
 * [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
@@ -18,6 +15,9 @@ ___
 * [**DevOps**](./role/devops/) - CI/CD and Serverless workflows, AWS Lambda.
 * [**QA**](./role/qa/) - Agile testing standards, Quality Gates.
 
+## 📊 Estimation (Best Practices)
+* [**Relative Sizing & Estimation Guide**](./framework/estimation.md)
+  > Learn the 10 best practices for the team estimation, including **Planning Poker**, **WSJF**, and **T-Shirt Sizing**. This guide explains how to balance task complexity, developer experience, and codebase quality to create predictable delivery timelines.
 
 ## 🤝  Working Agreement
 *  [**Working Agreements Guide**](./Working-Agreements/commitment.md/)
@@ -41,8 +41,15 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 - 🔍 Sprint Review
 - 🔄 Sprint Retrospective
 
+
 ## 📋 Ceremonies Preparation Checklist
   * [**Ceremonies Preparation Checklist**](./ceremony/ceremonies-prep-checklist.md/) - What to Bring & How to Prepare for Success.
+
+
+ ### 📊 [Metrics & Data Visualization]
+* [**Agile Metrics Dashboard**](./metrics.md)
+*Power BI and ClickUp integration for real-time tracking.*
+
 
 ## 📂 Folder structure
 - `/daily-standup` → Standup formats and facilitation tips
@@ -63,7 +70,7 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 ## 📋 How to use
 1. Browse a folder
 2. Download templates or use Markdown guides
-3. Customize to fit a team needs
+3. Customize to fit current needs
    
 
 ## 📬 Contact
