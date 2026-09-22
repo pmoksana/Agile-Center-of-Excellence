@@ -1,4 +1,10 @@
-* **Observation and coaching:**
+# Observation and Coaching
+
+
+### What to observe SM & How to coach teams
+
+[🏠 Home](../../) | [📦 Product Owner](../product-owner/) | [🛡️ Scrum Master](../scrum-master/) | [💻 Dev Team](../development-team/) [AI Agent](../ai-agent/)
+---
     
 While the Scrum Master ensures the DSU happens and stays within the 15-minute timebox, the event belongs to the Developers. 
 SM shouldn't be the dedicated note-taker at the Daily Standup (DSU).If the Scrum Master takes all the notes, updates Jira/ClickUp tickets live, and moves cards around during the meeting, it subtly creates a dynamic where developers report to the Scrum Master rather than talking to each other.
@@ -39,7 +45,7 @@ Encourage the team to capture notes directly where the work lives instead of cre
 
 What the Scrum Master Should Write Down During DSU
 
-While you aren't taking general meeting minutes, I as a Scrum master should listen actively and jot down your my personal follow-ups:
+While you aren't taking general meeting minutes, I, as a Scrum master should listen actively and jot down your my personal follow-ups:
 
 - [ ]Systemic Blockers: Organizational friction, external team dependencies, or environment outages that you need to help clear after the call.
 - [ ]Behavioral Patterns: Is someone constantly silent? Are scope items creeping in unannounced?
