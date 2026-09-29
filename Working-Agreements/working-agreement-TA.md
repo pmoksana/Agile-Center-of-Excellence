@@ -29,7 +29,7 @@ Individual expectations rarely match by default. By formalizing these norms, we:
 
 ---
 
-## 🧱 What We Include in Our Agreements
+## 🧱 What We Include in Our Working Agreements
 We start our agreements with the phrase: *"As a team, we agree to..."*
 
 ### 📡 General Collaboration
@@ -45,7 +45,6 @@ We start our agreements with the phrase: *"As a team, we agree to..."*
 * **Done Means Done:** Automated tests are included, staging is verified, and documentation is updated.
 
 ### 🚀 "Definition of done"
-
 * **The change has sufficient automated tests.
 * **Changes have been tested on the staging environment.
 * **Code has been peer-reviewed.
@@ -54,10 +53,9 @@ We start our agreements with the phrase: *"As a team, we agree to..."*
 * **Relevant documentation is updated.
 * **Task goal (acceptance criteria) is met.
 
-
 ---
 
-## 🛠 How We Create Them (Workshop Guide)
+## 🛠 How We Create our Working Agreement (Workshop Guide)
 
 ### 1. The Session
 We set aside 60–90 minutes for a dedicated session. Total team participation is required to ensure 100% buy-in.
@@ -73,13 +71,34 @@ We don't move forward with a rule unless everyone can support it. If a team memb
 
 ---
 
-## 💡 Best Practices for Success
+## 💡 Best Practices for Team Working Agreements
 
 ### Keep it Living
+1. Keep Them Short, Visual, and Accessible
+Limit to 5–8 Core Rules: We Do not create a 20-page document nobody reads. Keep agreements short, impactful, and clear.
+Make Them Visually Persistent: Pin them directly at the top of your team’s Jira/ClickUp board, Confluence space, or Slack/Teams channel.
+
+* **2. Focus on "How We Collaborate," Not Just "When We Meet"**
+Good working agreements go beyond attendance rules. They define handoffs, communication etiquette, and resolution channels:
+Asynchronous vs. Synchronous Communication: “Use Slack/Teams threads for daily updates; tag urgent production blockers directly.”
+Core Working / Collaboration Hours: “Overlapping working hours for mob programming and syncs are 10:00 to 14:00 CET.”
+Psychological Safety & Conflict: “Critique the code or architecture, never the person. Address disagreements directly within 24 hours or request SM facilitation.”
+
+* **3. Define Clear Handoffs & Flow Discipline**
+Establish explicit rules around work-in-progress (WIP) and operational handoffs:
+
+WIP Limits: “No developer picks up a new story if there are items waiting in 'Code Review' or 'QA Validation'.”
+Review SLA: “Pull requests must be reviewed within 24 hours to avoid blocking flow metrics.”
+Data & Cloud Handoffs: “No data pipeline story enters 'In Progress' without an agreed schema contract between the Data Analyst and Devs.”
+
+* **4. Treat Agreements as a Living Document**
+Working agreements are not set in stone. Review and update them during Iteration Retrospectives or after major ART-level changes. If a rule isn't being followed, ask the team if it should be revised or enforced.
+
 A working agreement is not a "set and forget" document. 
 * **Retrospectives:** Review these agreements regularly. If a rule isn't being followed, either fix the behavior or remove the rule.
 * **Onboarding:** Walk every new hire through this document so they understand our "DNA" from day one.
 * **Propose Changes:** Anyone can suggest an update. Simply tag the Team Lead or Scrum Master in a comment on this document.
+
 
 ### Automate the Enforcement
 The best way to make these stick is to remove the "human" element where possible:
