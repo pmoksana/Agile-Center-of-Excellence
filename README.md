@@ -45,6 +45,9 @@ This repository contains facilitation guides and templates for key Scrum ceremon
 ## 📋 Ceremonies Preparation Checklist
   * [**Ceremonies Preparation Checklist**](./ceremony/ceremonies-prep-checklist.md/) - What to Bring & How to Prepare for Success.
 
+## 📋 Coaching and Observation
+  * [**Coaching and Observation Best Practices**](.//ceremony/Observation-and-coaching.md/)
+
 
  ### 📊 [Metrics & Data Visualization]
 * [**Agile Metrics Dashboard**](./metrics.md)
