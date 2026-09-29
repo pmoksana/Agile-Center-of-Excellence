@@ -1,0 +1,48 @@
+# 24-Hour Review SLA Framework
+
+## 1. What Exactly Is the 24-Hour Review SLA?
+
+The 24-hour Review SLA is an explicit team commitment regarding code and artifact handoffs:
+
+* **The Rule:** When a developer or data engineer opens a Pull Request (PR) or schema validation request and moves the story to "In Code Review," team reviewers have a maximum window of 24 business hours to complete the review.
+* **The Expected Actions:** Within 24 hours, a reviewer must either:
+  1. **Approve** the PR for automated CI/CD pipeline deployment.
+  2. **Request Changes** with clear, constructive feedback.
+  3. **Pair Up** synchronously with the author if the review is complex.
+* **Scope:** Applies across software repositories, Infrastructure-as-Code (IaC) scripts, and Data Analytics SQL/ETL pipeline scripts.
+
+---
+
+## 2. Why Is It Critical for Team Flow?
+
+In cross-functional teams, delay in peer reviews is the **#1 hidden cause of low Flow Efficiency**:
+
+* **Prevents Context-Switching:** When a developer waits 3–4 days for a review, they pick up new user stories, increasing Work-In-Progress (WIP). When feedback finally arrives, they must drop their new task to return to old code.
+* **Eliminates Merge Conflicts:** The longer a branch sits unmerged, the further it drifts from the main branch, increasing the risk of complex merge conflicts.
+* **Reduces Cycle Time:** Moving PR review turnarounds from 72 hours to under 24 hours directly cuts overall feature Cycle Time by up to **40%**.
+
+---
+
+## 3. When Does a Scrum Master Need to Create / Introduce It?
+
+A Scrum Master or Delivery Lead should introduce a 24-hour Review SLA in the following scenarios:
+
+### A. When Flow Metrics Reveal High Wait Times
+* **Trigger:** During iteration analysis or Retrospectives, the Cumulative Flow Diagram (CFD) or Cycle Time chart shows stories spending 50%+ of their total lifespan sitting in the *"In Review"* or *"Awaiting QA/Data Validation"* column.
+
+### B. When Team Work-In-Progress (WIP) Is Spiking
+* **Trigger:** Developers are hitting WIP limits because they cannot merge open stories. Instead of waiting, they open new cards, leading to multitasking and degraded quality.
+
+### C. During Team Formation or SAFe Working Agreement Setup
+* **Trigger:** When forming a new squad or launching an Agile Release Train (ART), establish this SLA proactively as part of the team's initial **Working Agreements** and **Definition of Done (DoD)**.
+
+### D. In Cross-Functional Data & Engineering Handoffs
+* **Trigger:** Frontend/mobile developers are constantly blocked waiting for Data Analysts or Data Engineers to validate and review database schema pull requests.
+
+---
+
+## 4. How the Scrum Master Enforces and Coaches the SLA
+
+* **Visual Triggers on Boards:** Configure Jira or ClickUp board cards to highlight or change color if a story remains in "In Review" for longer than 24 hours.
+* **Automated Slack/Teams Notifications:** Set up repository webhooks (e.g., GitHub / GitLab integrations) to ping designated review channels when a PR hits the 18-hour mark without feedback.
+* **Promote Swarming & Pair Reviews:** Coach the team during Daily Standups: *"We have 2 PRs nearing our 24-hour SLA limit. Before anyone picks up new work from 'To Do', let's get those two reviewed and merged."*
