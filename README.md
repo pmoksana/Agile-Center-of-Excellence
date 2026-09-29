@@ -16,6 +16,7 @@ A Strategic Guide for Scaled Agile & Digital Transformation
 * [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
 * [**Scrum Master^s day**](./role/scrum-master/scrum-master-day/)
 * [**Daily metrics**](./role/scrum-master/daily-metrics/)
+* [**Scrum Master & Product Owner Collaboration Framework**](./role/scrum-master/Scrum-master-&-product-owner)
 
 ## 📊 Estimation (Best Practices)
 * [**Relative Sizing & Estimation Guide**](./framework/estimation.md)
