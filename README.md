@@ -10,18 +10,21 @@ A Strategic Guide for Scaled Agile & Digital Transformation
   
 ### 👥 Role-Specific Guides
 * [**Product Owner Guide**](./role/product-owner/) - Accountable for maximizing product value and backlog transparency.
-* [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
 * [**Development Team Guide**](./role/development-team/) - Professionals committed to creating any aspect of a usable Increment.
 * [**DevOps**](./role/devops/) - CI/CD and Serverless workflows, AWS Lambda.
 * [**QA**](./role/qa/) - Agile testing standards, Quality Gates.
+* [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
+* [**Scrum Master^s day**](./role/scrum-master/scrum-master-day/)
+* [**Daily metrics**](./role/scrum-master/daily-metrics/)
 
 ## 📊 Estimation (Best Practices)
 * [**Relative Sizing & Estimation Guide**](./framework/estimation.md)
   > Learn the 10 best practices for the team estimation, including **Planning Poker**, **WSJF**, and **T-Shirt Sizing**. This guide explains how to balance task complexity, developer experience, and codebase quality to create predictable delivery timelines.
 
 ## 🤝  Working Agreement
-*  [**Working Agreements Guide**](./Working-Agreements/commitment.md/)
-
+*  [**Working Agreements Guide**](./Working-Agreements/working-agreement-TA.md/)
+*  [**24-Hour Review SLA**](./Working-Agreements/24-h-review-SLA.md/)
+*  [**Case studyA**](./Working-Agreements/case-study.md/)
 
 ## 🎯  Mission and Vision
 *  [**Strategic Alignment**](./mission-vision.md/)
