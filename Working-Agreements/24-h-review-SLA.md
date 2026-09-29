@@ -3,6 +3,11 @@
 ## 1. What Exactly Is the 24-Hour Review SLA?
 
 The 24-hour Review SLA is an explicit team commitment regarding code and artifact handoffs:
+A 24-hour Pull Request (PR) Review SLA (Service Level Agreement) is an internal team working agreement that mandates all code pull requests, data schema changes, 
+and merge requests must be reviewed, commented on, or approved within 24 hours of being submitted.
+It is designed to eliminate idle wait times, maintain steady flow, and prevent code branches from becoming stale or accumulating merge conflicts.
+
+
 
 * **The Rule:** When a developer or data engineer opens a Pull Request (PR) or schema validation request and moves the story to "In Code Review," team reviewers have a maximum window of 24 business hours to complete the review.
 * **The Expected Actions:** Within 24 hours, a reviewer must either:
