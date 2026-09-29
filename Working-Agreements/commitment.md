@@ -3,13 +3,19 @@
 > **Our Social Contract:** Moving from unstated assumptions to explicit alignment for high-performing collaboration.
 
 ---
+## Roles focus
+* **Data Analysts on schema governance and pipeline integrity 
+* **Cloud/DevOps engineers on security, cost, and reliability 
+* **Scrum Master acts as the alignment catalyst
+* **Product Owners focus on feature velocity.
+  
+---
 
 ## 🧭 What are Working Agreements?
 Working agreements are a great tool to improve collaboration and be more productive.
 These are are guidelines, rules, or behaviors the team has agreed on. 
 We agreed on what we want to do together with the whole team and make sure everyone is able to keep the agreements, our team will work together with less friction and be happier.
 For the dev team to work effectively and achieve their goals, we needed to decide on the ways of working and behaviors we want to follow to shared sense of responsibility, make it easier to identify and discuss both positive and negative behavior, empower the leader to keep the team accountable, and enhance the team's productivity.
-
 
 At our company, working agreements describe exactly how we commit to interacting. They are not top-down mandates; they are behaviors we have collectively agreed to follow to reduce friction and improve our daily flow.
 
