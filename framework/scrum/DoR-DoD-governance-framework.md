@@ -49,3 +49,14 @@ When a Product Owner presents a story during Iteration Planning that fails the D
 1. **Apply the "GDoR Firewall":** The Scrum Master acts as the neutral facilitator. Returning a story is not a punishment—it protects the team from failure.
 2. **Document the Deficit:** Tag the story in Jira with `Blocked-DoR` and leave a explicit comment detailing which checklist item failed (e.g., *"Missing Collibra glossary entry for field X"*).
 3. **Assign an Actionable Sub-Task:** If research or architectural clarification is needed, create a timeboxed **Technical Spike** or **Data Discovery Task** for the upcoming iteration instead of pulling in the unrefined implementation story.
+[ Unrefined Story ] 
+           │
+  ( Refinement / GDoR )
+           │
+   Is DoR 100% Met? ────── No ─────► [ Return to Funnel ]
+           │                          │ Assign Spike / Action Item
+          Yes                         ▼
+           │                    [ Refine in N+1 ]
+           ▼
+
+   
