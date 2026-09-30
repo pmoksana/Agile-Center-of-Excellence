@@ -59,8 +59,71 @@ Engineers often focus on code quality, while executives focus on delivery dates.
 
 ## Summary of Scrum Master Impact
 
-| Dimension | How the Scrum Master Helps |
-| :--- | :--- |
-| **Priority** | Facilitates WSJF scoring, protects capacity allocation, and aligns team backlogs with Business Owner goals. |
-| **Visibility** | Connects daily user stories to PI Objectives on visual boards and tracks the Program Predictability Measure (PPM). |
-| **Delivery** | Uses WIP limits, swarming, and flow metrics (Cycle Time/Flow Efficiency) to ensure prioritized value reaches "Done" fast. |
+# Program Predictability Measure (PPM) Setup & Tracking in Jira
+
+The **Program Predictability Measure (PPM)** tracks how reliably an Agile Release Train (ART) delivers business value compared to what was planned during PI Planning. 
+
+Below is the complete breakdown of **who creates and owns these metrics**, **how to configure Jira to store the data**, and **how to build dashboards to track them**.
+
+---
+
+
+---
+
+## 3. Evaluating and Auditing the Definition of Done (DoD) in SAFe
+
+While DoR is an **Entry Gate**, the Definition of Done (DoD) is the **Exit Gate**. In SAFe, the DoD exists at three distinct levels: **Team Level**, **System / ART Level**, and **Solution / Enterprise Level**.
+
+### SAFe Multi-Level DoD Audit Checklist
+
+#### Level 1: Team Iteration DoD (Every Story)
+* [ ] Code complete, peer-reviewed, and merged into the primary integration branch.
+* [ ] Unit test coverage threshold met (e.g., $\ge 80\%$) and all unit tests pass.
+* [ ] Static Code Analysis (SonarQube) passes with zero high-severity security vulnerabilities.
+* [ ] Automated Data Quality tests pass (for Data Teams).
+* [ ] Acceptance Criteria verified by QA / Data Steward.
+* [ ] Metadata/Lineage changes published to Collibra (for Data Teams).
+
+#### Level 2: System / ART Level DoD (Every Feature / Iteration)
+* [ ] Integrated onto the System Team's Staging environment.
+* [ ] Cross-team end-to-end integration tests execution successful.
+* [ ] Automated regression test suite executed cleanly.
+* [ ] System Demo conducted for stakeholders.
+* [ ] User documentation and release notes updated in Confluence.
+
+#### Level 3: Solution / Release Level DoD (PI / Production Release)
+* [ ] Penetration testing and SecOps sign-off complete.
+* [ ] Regulatory compliance checks (GDPR/BCBS 239) validated by Compliance Officer.
+* [ ] Disaster Recovery and rollback testing executed.
+* [ ] Final sign-off from Enterprise Data Owner / Business Sponsor.
+
+---
+
+## 4. Retrospective DoD Health Check Audit Framework
+
+To prevent "DoD Decay," the Scrum Master should facilitate a quarterly **DoD Audit Session** using the following criteria:
+
+| Audit Question | Evidence / Metric | Action Item if Failing |
+| :--- | :--- | :--- |
+| **1. Are stories marked "Done" causing production defects?** | Escape Defect Rate $> 5\%$ | Add automated regression tests to Team DoD |
+| **2. Is compliance/security catching bugs after Sprint Review?** | Late Security Audit Flags $> 0$ | Shift SecOps check left into Team DoD |
+| **3. Are data assets usable immediately by downstream teams?** | Post-Sprint Data Steward Blockers | Make Collibra lineage mandatory in Team DoD |
+| **4. Is technical debt building up across iterations?** | SonarQube Debt Ratio $> 5\%$ | Strengthen code review & refactoring rules in DoD |
+
+---
+
+## 5. GitHub Pages Metadata Integration
+
+Below is the YAML front matter and structured header for direct publication on **GitHub Pages (Jekyll/Hugo)**.
+
+```yaml
+---
+layout: post
+title: "Enterprise Governance: Multi-Domain DoR & DoD Audit Framework in SAFe"
+date: 2026-09-30
+categories: [Agile, SAFe, Data Governance, DevSecOps]
+tags: [Definition of Ready, Definition of Done, Scrum Master, SAFe, Collibra, CI-CD, Audit]
+author: "Delivery Leadership Team"
+toc: true
+summary: "A practical guide for Scrum Masters to establish tailored DoR checklists for Data, CI/CD, and App teams, manage unrefined story returns, and audit multi-level SAFe Definitions of Done."
+---
