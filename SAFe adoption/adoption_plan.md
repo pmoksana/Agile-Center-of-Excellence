@@ -1,4 +1,4 @@
-# Coaching Program: Data Team SAFe Maturity & Adoption Plan
+# Data Team SAFe Maturity & Adoption Plan 
 
 
 As a SAFe mentor, I’ve structured this transformation program specifically for my **20-person cross-functional group (Data Engineers, Data Analysts, Software Engineers, POs, and PM)**. 
@@ -10,11 +10,13 @@ This program guides through a **4-Phase Adoption Roadmap**, defines **Event-by-E
 
 ---
 
-## 1. SAFe Data Transformation Roadmap (4-Phase Plan)
+## SAFe Data Transformation Roadmap (4-Phase Plan)
+
 ┌─────────────────────────┐     ┌─────────────────────────┐     ┌─────────────────────────┐     ┌─────────────────────────┐
 │     Phase 1: Launch     │ ──► │  Phase 2: Execution     │ ──► │ Phase 3: Predictability │ ──► │  Phase 4: Optimization  │
 │   (Foundations & PI 1)  │     │       (PI 1 - PI 2)     │     │      (PI 3 - PI 4)      │     │       (PI 5+)           │
 └─────────────────────────┘     └─────────────────────────┘     └─────────────────────────┘     └─────────────────────────┘
+
 ### Phase 1: Launch & Foundations (PI 1 Preparation)
 * **Goal:** Shift from ad-hoc data requests to structured feature flow.
 * **Key Focus:** 
@@ -44,23 +46,9 @@ This program guides through a **4-Phase Adoption Roadmap**, defines **Event-by-E
 
 ---
 
-## 2. Event-by-Event Coaching Playbook for the Scrum Master
+## Data Team SAFe Maturity Evaluation 
 
-To coach your team to maturity, your actions during standard SAFe events must address the specific friction points of data engineering and analytics:
-
-| SAFe Cadence Event | Common Data Team Trap | Scrum Master Coaching Action |
-| :--- | :--- | :--- |
-| **PI Planning** | Estimating large, vague data pipelines or model exploratory tasks as single massive user stories. | • Coach POs and Data Architects to convert unknown data work into 1–3 day **Spikes**.<br>• Ensure cross-team data dependencies (e.g., API readiness vs. pipeline ingestion) are logged on the ART Planning Board. |
-| **Daily Standup** | Data Engineers working in isolation on long multi-week ETL scripts; status updates sound like "still working on the pipeline." | • Walk the board **right-to-left**.<br>• Coach the team to break down pipeline work so stories transition through testing/review every 1–2 days.<br>• Initiate **swarming sessions** for PRs or schema reviews stuck >24 hours. |
-| **Backlog Refinement** | Pushing raw analyst requests directly into execution sprints without clear schema specs. | • Enforce the **Definition of Ready (DoR)**.<br>• Coach Product Owners to define clear acceptance criteria (e.g., *Expected Input Schema, Output SLA, and Target Metric Definitions*) before story commitment. |
-| **Iteration Review / Demo** | Showing raw SQL code or database schemas instead of working business value. | • Coach Analysts and Engineers to demonstrate value through live dashboards, working endpoints, or end-to-end data pipelines running on staging data. |
-| **Inspect & Adapt (I&A)** | Blaming poor predictability on "unpredictable data sources" or external vendor schemas. | • Facilitate 5-Whys root cause analysis.<br>• Help the team convert recurring external data friction into **Architecture Enablers** or risk-mitigation tasks added directly into the next PI Backlog. |
-
----
-
-## 3. Data Team SAFe Maturity Evaluation Model
-
-Evaluate your team’s adoption level at the end of every PI using this 4-Level Maturity Matrix:
+I´m going to evaluate my team’s adoption level at the end of every PI using this 4-Level Maturity Matrix:
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                                DATA TEAM MATURITY MATRIX                                │
@@ -79,21 +67,3 @@ Evaluate your team’s adoption level at the end of every PI using this 4-Level 
 
 ---
 
-## 4. Next Steps for You as the Scrum Master
-
-1. **Assess Current Baseline:** Use the Matrix in Section 3 to score your current 20-person group across the 4 dimensions.
-2. **Set up Jira Custom Fields:** Ensure `Planned Business Value`, `Actual Business Value`, `Target PI`, and `Is Uncommitted?` are configured for your PI Objectives.
-3. **Draft the Data Contract Template:** Define a standard lightweight template (Inputs, Outputs, Schema, Refresh Frequency) that POs and Data Engineers must agree on during Backlog Refinement.
-
----
-# Coaching Guide: Moving from Ad-Hoc Data Requests to Structured Feature Flow
-
-Shifting a data team from an **"Ad-Hoc Service Desk"** mindset to a **"Structured Feature Flow"** mindset is the single most critical step in adopting SAFe. 
-
-Without this shift, data engineers and analysts spend 80% of their day responding to urgent slack messages, broken queries, and one-off CSV requests—leaving zero time for strategic pipelines, data architecture, or predictable value delivery.
-
----
-
-## 1. How to Explain the Core Concept to Your Team & Stakeholders
-
-When coaching your team and business partners, explain the transition using this fundamental difference:
