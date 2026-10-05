@@ -1,6 +1,6 @@
-##  Event-by-Event Coaching Playbook to transform my team
+##  Event-by-Event Coaching Playbook to transform my team toward SAFe
 
-To coach your team to maturity, your actions during standard SAFe events must address the specific friction points of data engineering and analytics:
+To coach my team to maturity, my actions during standard SAFe events must address the specific friction points of data engineering and analytics:
 
 | SAFe Cadence Event | Common Data Team Trap | Scrum Master Coaching Action |
 | :--- | :--- | :--- |
@@ -12,9 +12,9 @@ To coach your team to maturity, your actions during standard SAFe events must ad
 
 ---
 
-## 3. Data Team SAFe Maturity Evaluation Model
+## Data Team SAFe Maturity Evaluation Model
 
-Evaluate your team’s adoption level at the end of every PI using this 4-Level Maturity Matrix:
+Evaluate my team’s adoption level at the end of every PI using this 4-Level Maturity Matrix:
 
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                                DATA TEAM MATURITY MATRIX                                │
@@ -33,10 +33,9 @@ Evaluate your team’s adoption level at the end of every PI using this 4-Level 
 
 ---
 
-## 4. Next Steps for You as the Scrum Master
-
-1. **Assess Current Baseline:** Use the Matrix in Section 3 to score your current 20-person group across the 4 dimensions.
-2. **Set up Jira Custom Fields:** Ensure `Planned Business Value`, `Actual Business Value`, `Target PI`, and `Is Uncommitted?` are configured for your PI Objectives.
+##   Next Steps to do 
+1. **Assess Current Baseline:** Use the Matrix in Section 3 to score my current 20-person group across the 4 dimensions.
+2. **Set up Jira Custom Fields:** Ensure `Planned Business Value`, `Actual Business Value`, `Target PI`, and `Is Uncommitted?` are configured for my PI Objectives.
 3. **Draft the Data Contract Template:** Define a standard lightweight template (Inputs, Outputs, Schema, Refresh Frequency) that POs and Data Engineers must agree on during Backlog Refinement.
 
 ---
@@ -48,9 +47,9 @@ Without this shift, data engineers and analysts spend 80% of their day respondin
 
 ---
 
-## 1. How to Explain the Core Concept to Your Team & Stakeholders
+## How to Explain the Core Concept to my Team & Stakeholders
 
-When coaching your team and business partners, explain the transition using this fundamental difference:
+When coaching my team and business partners, explain the transition using this fundamental difference:
 
 
 ❌ OLD WAY: Ad-Hoc Service Desk (Interrupt-Driven)
@@ -64,11 +63,11 @@ Business Need -> ART Backlog -> Refinement & WSJF -> Iteration Planning -> High-
 > *"Ad-hoc requests treat our data experts like a fast-food drive-thru. It gives you quick answers today, but it breaks our systems tomorrow and causes massive delays on major strategic initiatives. Moving to Feature Flow means treating data as a **Product**. Instead of building 50 individual one-off reports, we build robust, self-service data capabilities that answer those 50 questions automatically."*
 
 ### The Pitch to Data Engineers & Analysts:
-> *"Feature Flow protects your focus. It shifts us from constantly firefighting random requests to doing planned, high-impact engineering. You won't have to context-switch five times a day or hack together quick SQL queries that break next week."*
+> *"Feature Flow protects my focus. It shifts us from constantly firefighting random requests to doing planned, high-impact engineering. You won't have to context-switch five times a day or hack together quick SQL queries that break next week."*
 
 ---
 
-## 2. Direct Comparison: Ad-Hoc vs. Structured Feature Flow
+## Direct Comparison: Ad-Hoc vs. Structured Feature Flow
 
 | Dimension | ❌ Ad-Hoc Data Requests | ✅ Structured Feature Flow |
 | :--- | :--- | :--- |
@@ -86,12 +85,13 @@ To execute this transition smoothly without alienating business stakeholders, im
 
 ┌──────────────────────────┐     ┌──────────────────────────┐     ┌──────────────────────────┐     ┌──────────────────────────┐
 │  Step 1: Categorize Work │ ──► │ Step 2: Establish Intake │ ──► │ Step 3: Implement Spikes │ ──► │  Step 4: Enable Self-Svc │
-│  (Separate Ops vs Flow) │     │ (Route via PO & Backlog) │     │  (Timebox Unclear Data)  │     │ (Build Reusable Assets)  │
+│  (Separate Ops vs Flow)  │     │ (Route via PO & Backlog) │     │  (Timebox Unclear Data)  │     │ (Build Reusable Assets)  │
 └──────────────────────────┘     └──────────────────────────┘     └──────────────────────────┘     └──────────────────────────┘
 
 
 ### Step 1: Set Up Capacity Allocation for Operations (The 70/20/10 Rule)
-You cannot eliminate operational fire-drills overnight. Protect team flow by budgeting for them explicitly:
+I cannot eliminate operational fire-drills overnight. 
+But I must Protect my team's flow by budgeting for them explicitly:
 * **70% Planned Feature Work:** Scheduled PI Objectives and core pipeline development.
 * **20% Technical Enablers & Architecture:** Refactoring ETL pipelines, improving CI/CD, updating data models.
 * **10% Production Support / Operational Buffer:** Dedicated capacity for urgent bug fixes and high-priority operational queries.
