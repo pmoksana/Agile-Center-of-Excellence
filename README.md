@@ -1,11 +1,17 @@
 
 
 #Agile Transformation Playbook
-A Strategic Guide for Scaled Agile & Digital Transformation
-*Roadmap for Agile maturity growth.*
+A Strategic Guide for Scaled Agile & Digital Transformation 
+*Roadmap for Agile maturity teams´ growth.*
 ---
-##  Scrum Framework
-* [**Scrum**](./framework/scrum.md/)
+##  SAFe Framework
+* [**SAFe**](./framework/SAFe.md/)
+
+
+## SAFe adoption
+* [**SAFe**](./SAFe adoption/SAFe-implementation.md/)
+* [**SAFe**](./SAFe adoption/adoption_plan.md/)
+
 
   
 ### 👥 Role-Specific Guides
@@ -14,6 +20,8 @@ A Strategic Guide for Scaled Agile & Digital Transformation
 * [**DevOps**](./role/devops/) - CI/CD and Serverless workflows, AWS Lambda.
 * [**QA**](./role/qa/) - Agile testing standards, Quality Gates.
 * [**Scrum Master Guide**](./role/scrum-master/) - Facilitator and coach for the Scrum Team and organization.
+
+### 👥 Scrum master Guides
 * [**Scrum Master^s day**](./role/scrum-master/scrum-master-day/)
 * [**Daily metrics**](./role/scrum-master/daily-metrics/)
 * [**Scrum Master & Product Owner Collaboration Framework**](./role/scrum-master/Scrum-master-&-product-owner)
@@ -25,12 +33,10 @@ A Strategic Guide for Scaled Agile & Digital Transformation
 ## 🤝  Working Agreement
 *  [**Working Agreements Guide**](./Working-Agreements/working-agreement-TA.md/)
 *  [**24-Hour Review SLA**](./Working-Agreements/24-h-review-SLA.md/)
-*  [**Case studyA**](./Working-Agreements/case-study.md/)
+*  [**Case study**](./Working-Agreements/case-study.md/)
 
 ## 🎯  Mission and Vision
 *  [**Strategic Alignment**](./mission-vision.md/)
-
-
 
 ###  Team Workflows
 * [**Workflows**](./team-workflows/)
