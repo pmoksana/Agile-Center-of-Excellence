@@ -5,12 +5,12 @@ A Strategic Guide for Scaled Agile & Digital Transformation
 *Roadmap for Agile maturity teams´ growth.*
 ---
 ##  SAFe Framework
-* [**SAFe**](./framework/SAFe.md/)
+* [**SAFe**](./framework/scrum.md/)
 
 
 ## SAFe adoption
-* [**SAFe**](./SAFe adoption/SAFe-implementation.md/)
-* [**SAFe**](./SAFe adoption/adoption_plan.md/)
+* [**SAFe implementation**](./SAFe adoption/SAFe-implementation.md/)
+* [**SAFe adoption_plan**](./SAFe adoption/adoption_plan.md/)
 
 
   
@@ -25,15 +25,25 @@ A Strategic Guide for Scaled Agile & Digital Transformation
 * [**Scrum Master^s day**](./role/scrum-master/scrum-master-day/)
 * [**Daily metrics**](./role/scrum-master/daily-metrics/)
 * [**Scrum Master & Product Owner Collaboration Framework**](./role/scrum-master/Scrum-master-&-product-owner)
+* [**AWS Data Migration Strategy: Clearing Infrastructure Blockers**](./framework/scrum/clearing-blockers.md
 
 ## 📊 Estimation (Best Practices)
 * [**Relative Sizing & Estimation Guide**](./framework/estimation.md)
   > Learn the 10 best practices for the team estimation, including **Planning Poker**, **WSJF**, and **T-Shirt Sizing**. This guide explains how to balance task complexity, developer experience, and codebase quality to create predictable delivery timelines.
+  > https://github.com/pmoksana/Agile-Center-of-Excellence/blob/main/framework/scrum/estimation.md
+
 
 ## 🤝  Working Agreement
-*  [**Working Agreements Guide**](./Working-Agreements/working-agreement-TA.md/)
+*  [**Working Agreements Guidec(./Working-Agreements/working-agreement-TA.md/)
 *  [**24-Hour Review SLA**](./Working-Agreements/24-h-review-SLA.md/)
 *  [**Case study**](./Working-Agreements/case-study.md/)
+
+[**DoR via DOD[**(./framework/scrum/DoR-DoD-governance-framework.md)
+[**SAFe Cadence & Events Guide**](./framework/scrum/SAFe-cadence.md)
+
+[**Event-by-Event Coaching Playbook to transform my team toward SAFe**](./framework/scrum/adoption-coaching.md)
+
+
 
 ## 🎯  Mission and Vision
 *  [**Strategic Alignment**](./mission-vision.md/)
