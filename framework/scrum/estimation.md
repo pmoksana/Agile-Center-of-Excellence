@@ -7,7 +7,7 @@
 📊 Agile Estimation: Best Practices & Complexity Factors
 
 ## 🎯 What is Agile Estimation?
-Estimation in Agile is the process of forecasting the effort required to complete a task. Unlike traditional "time-based" estimation, Agile focuses on **relative sizing** to account for uncertainty and the varying speeds of different developers.
+Estimation in Agile is the process of forecasting the effort required to complete a task. Unlike traditional "time-based" estimation, Agile focuses on **relative sizing** to account for uncertainty and the varying speeds of teams.
 
 ---
 
@@ -19,7 +19,7 @@ The inherent complexity of a task is a primary factor in determining its effort.
 > **Analogy:** It's like the difference between baking a simple cake and constructing a multi-tiered wedding cake; the latter requires more ingredients, time, and specialized skills.
 
 ### 2. Developer Experience
-The experience level of the developer assigned to the task plays a significant role in estimation. Experienced developers with deep domain knowledge, familiarity with the codebase, and a strong understanding of best practices can often complete tasks more efficiently.
+The experience level of assigneer to the task plays a significant role in estimation. Experienced team members with deep domain knowledge, familiarity with the codebase, and a strong understanding of best practices can often complete tasks more efficiently.
 > **Analogy:** It's like the difference between a seasoned chef and a novice cook; the chef can prepare a meal faster and with greater finesse.
 
 ### 3. Codebase Quality
@@ -27,7 +27,7 @@ A well-structured, well-documented, and well-tested codebase makes it easier to 
 > **Analogy:** It's like the difference between navigating a well-organized library and searching through a cluttered attic.
 
 ### 4. Available Tools and Resources
-Access to the right development tools, libraries, frameworks, and testing environments can streamline development and automate tasks.
+Access to the right tools, libraries, frameworks, and testing environments can streamline development and automate tasks.
 > **Analogy:** It's like having the right tools for the job; a carpenter with a power saw can cut wood much faster than one with a hand saw.
 
 ### 5. Unforeseen Challenges
