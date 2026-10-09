@@ -1,0 +1,227 @@
+Capacity Allocation Frameworks
+
+# Enforcing Capacity Allocation Frameworks
+
+A practical guide for Scrum Masters, Delivery Leads, and Engineering Managers to maintain pipeline health, manage technical debt, and balance business delivery using capacity allocation models (such as the 70/20/10 rule).
+
+---
+
+## 1. What is Capacity Allocation?
+
+**Capacity Allocation** is the practice of reserving pre-agreed percentages of a team’s sprint capacity (story points or total available hours) for specific types of work. 
+
+Without explicit capacity limits, Product Owners naturally prioritize **100% business features** to hit aggressive delivery milestones. Over time, this leads to accumulated technical debt, fragile architecture, unoptimized data pipelines, and team burnout.
+
+┌────────────────────────────────────────────────────────────────────────┐
+│                   Target Capacity Allocation Model                     │
+├───────────────────────────────────────────────────┬────────────────────┤
+│ 70% - Business Features & Value Deliverables      │ 20% - Tech Enablers│
+│                                                   ├────────────────────┤
+│                                                   │ 10% - Tech Debt    │
+└───────────────────────────────────────────────────┴────────────────────┘
+
+
+---
+
+## 2. The 70/20/10 Capacity Model Breakdown
+
+| Bucket | Allocation | Description | Examples (Data & Engineering) |
+| :--- | :---: | :--- | :--- |
+| **Business Features** | **70%** | Direct business value and customer-facing deliverables driven by the Product Owner. | Building new ML model endpoints, creating analytics dashboards, adding customer API integrations. |
+| **Technical Enablers** | **20%** | Architectural scaling, platform infrastructure, and pipeline tooling required to support future features. | Upgrading dbt/Airflow versions, optimizing CI/CD build scripts, configuring cloud IAM roles & security policies. |
+| **Technical Debt & Maintenance** | **10%** | Refactoring messy/legacy code, fixing non-critical bugs, updating schema documentation, and removing unused dependencies. | Rewriting slow SQL queries, deprecating legacy database tables, improving unit test coverage. |
+
+---
+
+## 3. Step-by-Step Implementation Guide
+
+### Step 1: Calculate Category Caps
+Calculate available capacity during Sprint Planning based on historical team velocity or total story points:
+
+$$\text{Category Allocation (Points)} = \text{Total Sprint Velocity} \times \text{Allocation Percentage}$$
+
+* **Example:** For a squad with a velocity of **40 Story Points**:
+  * **Business Features (70%):** $\le 28 \text{ Points}$
+  * **Technical Enablers (20%):** $\le 8 \text{ Points}$
+  * **Technical Debt (10%):** $\le 4 \text{ Points}$
+
+---
+
+### Step 2: Enforce Rules During Backlog Refinement & Sprint Planning
+
+[ PO presents Sprint Backlog ]
+│
+▼
+Is Feature Points > 70%?
+├── YES ──► [ Scrum Master Intervention ]
+│           "Feature capacity is capped at 28 pts.
+│            Swap out 2 feature stories for Enablers/Tech Debt."
+│
+└── NO  ──► [ Approve Sprint Backlog ]
+
+
+---
+
+### Step 3: Jira Configuration & Dashboard Tracking
+
+To monitor capacity allocation transparently, enforce issue categorization inside Jira:
+
+1. **Create a Required Select Field:** `Work Category` with options:
+   * `Business Feature`
+   * `Technical Enabler`
+   * `Technical Debt / Maintenance`
+2. **JQL Filter for Sprint Categorization:**
+   ```jql
+   project = "DATA" AND sprint IN openSprints() AND "Work Category" = "Technical Debt"
+Dashboard Gadget: Add a Pie Chart Gadget grouped by Work Category to verify allocation adherence in real time during execution.
+
+4. Key Benefits
+Prevents System Degradation: Keeps technical infrastructure modern and scalable alongside feature growth.
+
+Empowers Engineering Teams: Guarantees developers dedicated, non-negotiable time to tackle refactoring without having to negotiate every bug fix.
+
+Stabilizes Long-Term Velocity: Reduces emergency production outages and pipeline failures, leading to a predictable Program Predictability Measure (PPM).
+---
+# SAFe Coach Script & Facilitation Guide: Capacity Allocation Workshop
+
+**Coach Persona:** Senior SAFe Practice Consultant / Agile Coach  
+**Participant:** Product Owner (Data & Analytics ART / Squad)  
+**Session Objective:** Transition the PO from reactive feature-stuffing to strategic, sustainable flow using the **Capacity Allocation Framework** (70/20/10 model) for an upcoming Program Increment (PI) and Sprint execution.  
+**Tools Required:** **Miro** (Visual Canvas), **Jira Software** (Board & Work Categories), **Confluence** (Agile Center of Excellence / Working Agreements).
+
+---
+
+## 1. Tool Setup & Pre-Workshop Configuration
+
+### A. Miro Board Canvas Architecture
+Set up a Miro board with three distinct frames:
+1. **Frame 1: The Pain Point Mapping Space** (Sticky notes & $2 \times 2$ impact grid).
+2. **Frame 2: The 70/20/10 Allocation Calculator & Visual Pie Slicer** (Interactive sliders or shapes representing story points).
+3. **Frame 3: Backlog Re-balancing Simulator** (Sample Jira cards imported via Miro-Jira integration).
+
+### B. Jira Software Configuration
+Ensure custom Jira fields are active before the workshop:
+* **Custom Field:** `Work Category` (`Business Feature`, `Technical Enabler`, `Technical Debt / Maintenance`).
+* **Jira Dashboard Gadget:** Create a *Pie Chart Gadget* grouped by `Work Category` filtered for the current active sprint or PI.
+
+### C. Confluence Template
+* **Document Location:** `Data ART / Team Charters / Capacity Allocation Agreement`.
+* Pre-populated with baseline definitions for **Features**, **Enablers**, and **Debt** specific to Data Engineering & Analytics.
+
+---
+
+## 2. Interactive Workshop Coaching Scenario & Script
+
+**Duration:** 60 Minutes  
+**Setting:** Remote Zoom / Teams call with Miro open on screen.
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          WORKSHOP AGENDA (60 MINS)                          │
+├───────────────────┬───────────────────────────────────┬─────────────────────┤
+│ 00:00 - 00:10     │ Frame 1: Diagnosis & Symptoms     │ The "Tech Debt Trap"│
+├───────────────────┼───────────────────────────────────┼─────────────────────┤
+│ 00:10 - 00:30     │ Frame 2: SAFe Allocation Model    │ 70/20/10 Mechanics  │
+├───────────────────┼───────────────────────────────────┼─────────────────────┤
+│ 00:30 - 00:50     │ Frame 3: Hands-On Jira Simulation │ Re-balancing Backlog│
+├───────────────────┼───────────────────────────────────┼─────────────────────┤
+│ 00:50 - 01:00     │ Confluence Sign-off               │ Enforcing Working Ag│
+└───────────────────┴───────────────────────────────────┴─────────────────────┘
+Phase 1: Diagnosing the "Data Tech Debt Trap" (10 Mins)
+[SAFe Coach]: "Thanks for jumping on, PO. Look at our last three sprints on Jira. We missed our PI Objectives by 25%, and in the last retrospective, the data engineers mentioned that 40% of their sprint was eaten up by unexpected pipeline outages, schema failures, and unoptimized dbt queries. Why do you think we keep hitting this wall?"
+
+[Product Owner]: "Honestly, stakeholder pressure is huge right now. Marketing wants three new dashboards, and the business team needs new churn prediction ML endpoints. I know the engineers are struggling with legacy queries, but if I don't commit to these features, leadership thinks we aren't delivering value."
+
+[SAFe Coach]: (Navigates to Frame 1 in Miro) "I hear you. But here is the reality in SAFe for Data Teams: Features built on top of failing pipelines are fake velocity. When we pack 100% of a sprint with business features, we aren't avoiding technical debt—we are just paying for it later with interest during production outages. Today, we're putting a framework in place that protects both your business targets and the team's pipeline health."
+
+Phase 2: Introducing the 70/20/10 Allocation Model (20 Mins)
+[SAFe Coach]: (Moves to Frame 2 in Miro showing the 70/20/10 Breakdown) "In SAFe, we treat capacity allocation as a financial portfolio. We don't negotiate individual refactoring tasks every sprint. Instead, we establish a non-negotiable capacity agreement between you, the System Architect, and the Data Team."
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      SAFe Capacity Allocation Model                     │
+├────────────────────────────────────────────────────┬────────────────────┤
+│ 70% - Business Features (PO Driven)                │ 20% - Tech Enablers│
+│                                                    ├────────────────────┤
+│                                                    │ 10% - Tech Debt    │
+└────────────────────────────────────────────────────┴────────────────────┘
+[SAFe Coach]: "Here is how we categorize our work in Data & Analytics:"
+
+70% Business Features (PO Owned):
+
+Example: New Tableau/Power BI reports, new ML features, customer-facing APIs.
+
+20% Technical Enablers (Architect / Tech Lead Owned):
+
+Example: Upgrading dbt/Airflow versions, configuring Cloud IAM roles, setting up CI/CD automation in GitHub Actions, implementing Data Contracts.
+
+10% Technical Debt & Maintenance (Engineering Team Owned):
+
+Example: Refactoring messy SQL joins, deprecating old staging tables, updating Collibra/data catalog documentation.
+
+[Product Owner]: "So I lose 30% of my sprint capacity for features?"
+
+[SAFe Coach]: "You don't lose it—you invest it. By reserving 20% for Enablers, your pipelines run faster and safer. By spending 10% on Tech Debt, bug tickets drop by 50%. In 2–3 sprints, your total velocity increases because the team stops spending time firefighting."
+
+Phase 3: Live Simulation in Miro & Jira (20 Mins)
+[SAFe Coach]: "Let's test this. Our team's average sprint velocity is 40 Story Points. Let's run the math:"
+
+Total Velocity=40 Points
+Business Features (70%)=28 Points (Max Cap)
+Technical Enablers (20%)=8 Points
+Technical Debt (10%)=4 Points
+[SAFe Coach]: (Drags Jira cards from the Backlog onto Miro Frame 3)
+
+"Look at your current candidate backlog for Next Sprint. You currently have 36 points of Business Features loaded. What happens when we apply our 70/20/10 filter?"
+
+[Product Owner]: "I'm 8 points over my 28-point feature cap."
+
+[SAFe Coach]: "Exactly. Now, as the Product Owner, you have full authority over which 28 points stay. But you cannot exceed 28 points. Which two lower-priority feature stories are you going to move back to the candidate backlog so the team can fit the 8-point dbt pipeline upgrade and the 4-point SQL refactoring task?"
+
+[Product Owner]: (Rearranges sticky cards in Miro) "I'll move the secondary export feature (5 pts) and the optional filter story (3 pts) to the next sprint. That brings features down to 28 points."
+
+[SAFe Coach]: "Perfect. You just protected the team's engineering integrity without compromising on your highest-value priorities."
+
+Phase 4: Systemizing in Jira & Confluence (10 Mins)
+[SAFe Coach]: "To ensure this runs smoothly during Sprint Planning and SAFe PI Planning, we are automating the guardrails in Jira and Confluence."
+
+1. Jira Dashboard Guardrail
+"We created a custom Jira field called Work Category. During Refinement, every item gets tagged. On your Jira PO Dashboard, this pie chart will instantly show your team's real-time allocation:"
+
+Code snippet
+// JQL Filter for Current Sprint Technical Debt Monitoring
+project = "DATA" AND sprint IN openSprints() AND "Work Category" = "Technical Debt"
+┌────────────────────────────────────────────────────────┐
+│               Jira Dashboard: Real-Time Sprint         │
+│                     Work Category Mix                  │
+│                                                        │
+│   ████████████████████████████ 70% Business Features   │
+│   ████████ 20% Technical Enablers                      │
+│   ████ 10% Tech Debt & Maintenance                     │
+└────────────────────────────────────────────────────────┘
+2. Confluence Team Charter Sign-off
+"Finally, we are logging this policy into our Confluence Team Working Agreement. When stakeholders ask why a feature wasn't pulled into the sprint, you refer to this policy approved by leadership."
+
+3. Confluence Documentation Output (Markdown for Repository/Space)
+Markdown
+# SAFe Capacity Allocation Policy: Data & Analytics Squads
+
+## 1. Core Principle
+To ensure pipeline stability, high data quality, and predictable throughput, all Data & Analytics squads adhere to a **70/20/10 Capacity Allocation Framework**. Capacity is calculated based on historical sprint velocity prior to Sprint Planning.
+
+---
+
+## 2. Allocation Categorization & Rules
+
+| Category | Target % | Owner | Scope & Criteria |
+| :--- | :---: | :--- | :--- |
+| **Business Features** | **70%** | Product Owner | User-facing analytical value, new dashboards, ML endpoints, business report modifications. |
+| **Technical Enablers** | **20%** | System Architect / Lead Engineer | Pipeline infrastructure upgrades, dbt/Airflow framework updates, IAM security automation, Data Contracts. |
+| **Technical Debt & Bugs** | **10%** | Engineering Team | Query refactoring, test suite expansion, schema documentation, deprecation of obsolete assets. |
+
+---
+
+## 3. Governance & Enforcers
+
+1. **Jira Field Requirement:** All Jira issues must have the `Work Category` field populated during Backlog Refinement.
+2. **Sprint Planning Gate:** The Scrum Master / Delivery Lead will validate that candidate sprint backlogs do not exceed the $70\%$ Business Feature cap.
+3. **Quarterly Review:** Capacity allocations are reviewed prior to each SAFe Program Increment (PI) Planning event to adapt to system maturity.
