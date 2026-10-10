@@ -58,3 +58,15 @@ The SM acts as a mentor and coach to elevate the PO from a passive "requirement 
 [ ] Clear Vision & Goals: Does the PO articulate a clear Sprint Goal and PI Objectives beyond a list of tasks?
 [ ] Respect for Capacity: Does the PO refrain from injecting unrefined scope into active sprints?
 [ ] Stakeholder Shielding: Does the PO act as the single point of entry for business requests?
+
+---
+
+### Product Owner (PO) **Performance Metrics**
+
+Evaluating a Product Owner focuses on **Backlog Health**, **Capacity Stewardship**, and **Strategic Alignment**:
+
+┌───────────────────────────││PRODUCT OWNER EVALUATION PANEL │├───────────────────│                                               │ Backlog Health                │ Ready Backlog Depth $\ge 2$ Sprints             │ 
+│  Capacity Allocation          │ 70% Features / 20% Enablers / 10% Tech Debt     │ 
+│ Refinement Quality            │ Definition of Ready (DoR) compliance.           │      │─────────────────────────────────────────────────────────────────────────────────│
+
+---
