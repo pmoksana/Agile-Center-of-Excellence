@@ -8,20 +8,20 @@
 ## Scrum Master: Role & Best Practices
 
 ## 🎯 Purpose
-The **Scrum Master** is a servant-leader and coach for the Scrum Team and the broader organization. 
+The **Scrum Master** is a **servant-leader** and **coach** for the Scrum Team and the broader organization. 
 Their primary purpose is to establish Scrum by helping everyone understand and apply its theory and practice to increase effectiveness.
 
 ---
- In a data environment, the SM acts as a bridge between high-level business strategy and technical execution. They ensure that data engineers, analysts, machine learning engineers, and cloud architects can focus on delivering high-quality data products without friction, scope creep, or operational bottlenecks.
+ In a data environment, the SM acts as a bridge between high-level business **strategy** and technical **execution**. They ensure that data engineers, analysts, machine learning engineers, and cloud architects can focus on delivering high-quality data products without **friction, scope creep, or operational bottlenecks**.
 ---
 
 ## 🏛️ Core Accountabilities (Scrum.org Standard)
-The Scrum Master is accountable for the Scrum Team's effectiveness and serves in several capacities:
+The Scrum Master is accountable for the Scrum **Team's effectivenes**s and serves in several capacities:
 
 * **Servant-Leader:** Leads by example and removes impediments that hinder the team's progress.
 * **Facilitator:** Organizes and facilitates Scrum events (Planning, Daily Scrum, Review, Retrospective) to ensure they are productive and timeboxed.
-* **Coach:** Supports the Team and Product Owner in self-management, cross-functionality, and empirical product planning.
-* **Change Agent:** Leads the organization in its Scrum adoption and promotes a culture of transparency and adaptation.
+* **Coach:** Supports the Team and Product Owner in **self-management**, **cross-functionality**, and **empirical product planning**.
+* **Change Agent:** Leads the organization in its Scrum **adoption** and promotes a **culture of transparency and adaptation**.
 
 ---
 According to the Scrum Guide and scaled frameworks, the Scrum Master has three core accountabilities:
@@ -39,13 +39,27 @@ According to the Scrum Guide and scaled frameworks, the Scrum Master has three c
 
 
 ---
+# Organizational Enablement 
+Organizational Enablement (often tied to Organizational Agility and the Business and Technology competency) focuses on building the **structural, cultural, and operational capabilities** needed for an enterprise to **adapt** quickly to market changes and support **continuous value** delivery.
+
+# Core Pillars of Organizational Enablement 
+
+**• Organizing Around Value**: Shift from traditional functional silos (e.g., separate QA, engineering, or operations departments) to cross-functional **Agile Release Trains** (ARTs) and **Value Streams** that own the end-to-end flow of work.
+**• Enabler Backlog Items**: Do technical, infrastructure, research, and compliance tasks first to build a solid foundation for future business features, so Building the behind-the-scenes foundation today so we can ship new features tomorrow.
+**• Decentralized Decision-Making**: Let teams make everyday decisions themselves, and only escalate big, risky, or long-term choices to leadership.
+**• People Managers as Enablers**: Shift managers from micromanaging to supporting their teams—building skills, fostering psychological safety, growing talent, and removing organizational roadblocks. So Scrum master helps managers focus on growing people, building safety, and removing obstacles instead of controlling daily tasks.
+**• Change and Communications Competency**: Scrum master prepares the workforce for major structural shifts using clear communication and dedicated enabling teams.
+
+
+---
 # 1. Accountable for Team Effectiveness & Process Quality
-The Scrum Master makes sure/help the team follows their agreed Agile rules, quality standards, and working guidelines.
+The Scrum Master is answerable for ensuring the team stick to agreed-upon **Agile practices, quality gates, and working agreements**.
 
-Enforcing Quality Gates: Ensuring the team respects the Definition of Ready (DoR) (e.g., stories have BDD criteria and schema contracts) and Definition of Done (DoD) (e.g., code passes local builds, linting, and 24-hour PR review SLAs).
+**Enforcing Quality Gates**: Ensuring the team respects the **Definition of Ready** (DoR) (e.g., stories have BDD criteria and schema contracts) and **Definition of Done** (DoD) (e.g., code passes local builds, linting, and 24-hour PR review SLAs).
 
-Optimizing Flow & Removing Impediments: Actively monitoring metrics like Blocker Age, WIP Limits, and Cycle Time to eliminate bottlenecks (such as delayed IAM access, missing data source specs, or broken CI/CD pipelines).
+**Optimizing Flow & Removing Impediments**: Actively monitoring **metrics** like Blocker Age, WIP Limits, and Cycle Time to eliminate bottlenecks (such as delayed IAM access, missing data source specs, or broken CI/CD pipelines).
 
+ 
 ---
 
 ## 2. Accountable for Coaching the Product Owner (PO)
