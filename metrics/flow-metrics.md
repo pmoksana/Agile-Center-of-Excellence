@@ -1,6 +1,6 @@
-# How I Work with SAFe & Flow Metrics
+# Flow Metrics on a SAFe Agile Release Train
 
-As a Scrum Master / Agile Facilitator on a SAFe Agile Release Train (ART), I use data-driven flow metrics and technical practices to keep teams predictable, remove execution bottlenecks, and deliver high-quality software continuously.
+For the Scrum Master / Agile Facilitator on a SAFe Agile Release Train (ART), to track data-driven flow metrics help keeps teams predictable, remove execution bottlenecks, and deliver high-quality software continuously.
 
 ---
 
@@ -9,7 +9,7 @@ As a Scrum Master / Agile Facilitator on a SAFe Agile Release Train (ART), I use
 ### 1. Program Predictability Measure (PPM)
 * **What it is:** The percentage ratio of planned **PI Objectives** versus actual **Achieved Business Value** measured at the end of a Program Increment (PI).
 * **Target:** **80% – 100%** business value predictability.
-* **My Action:** I track iteration burn-up charts regularly to ensure teams deliver their committed features on time, preventing scope carry-over into future iterations.
+* **My Action:** Track iteration burn-up charts regularly to ensure teams deliver their committed features on time, preventing scope carry-over into future iterations.
 
 ---
 
@@ -48,6 +48,7 @@ As a Scrum Master / Agile Facilitator on a SAFe Agile Release Train (ART), I use
 ---
 
 ##  Day-to-Day Execution Matrix
+
 ### 1. Daily Standup (Daily)
 * **Walk the Board:** Facilitate board walk-throughs **right-to-left** (focus on finishing open work before pulling new work).
 * **Check Pipeline Health:** Review open Pull Request (PR) turnaround times and check active CI/CD build failure alerts.
