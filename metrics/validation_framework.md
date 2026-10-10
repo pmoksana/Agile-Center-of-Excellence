@@ -1,16 +1,16 @@
 # Daily Metrics & Validation Framework for Data Science, Data Analytics, and CI/CD Squads
 
-To effectively track health, flow, and delivery across Data Science, Data Analytics, and CI/CD / DevOps engineering teams, 
-a Scrum Master must look beyond generic velocity and focus on flow efficiency, pipeline quality, and data governance.
+ To effectively track **health, flow, and delivery** across Data Science, Data Analytics, and CI/CD / DevOps engineering teams, 
+the Scrum Master looks beyond generic velocity and focus on flow efficiency, pipeline quality, and data governance.
 Because these domains involve unique workflows (e.g., exploratory data research, model training, infrastructure provisioning, and continuous deployment), 
-here is the exact operational toolkit of daily metrics to review and sprint/PI validation checks to perform.
-A practical operational guide for Scrum Masters and Delivery Leads to monitor daily flow, enforce quality standards, and track metrics across Data Science, Data Analytics, and DevOps/CI/CD engineering teams.
+
+ So, the SM monitors daily flow, enforces quality standards, and track metrics across Data Science, Data Analytics, and DevOps/CI/CD engineering teams Daily. 
 
 ---
 
 ## 1. Daily Health Dashboard (Metrics to Check Every Morning)
 
-Check these key indicators on your board (Jira, ClickUp, Azure DevOps) and deployment pipelines (GitHub Actions, GitLab CI, AWS CodePipeline) every morning before the Daily Standup.
+Check these key indicators on my board (Jira, ClickUp, Azure DevOps) and deployment pipelines (GitHub Actions, GitLab CI, AWS CodePipeline) every morning before the Daily Standup.
 
 | Domain | Daily Metric | Target Threshold | Operational Signal / Action Required |
 | :--- | :--- | :--- | :--- |
@@ -41,26 +41,35 @@ Incorporate these checks into daily facilitation and team syncs.
 
 ## 3. Sprint & PI Quality Framework
 
-Track these macro metrics at the end of each iteration or Program Increment (PI) during Retrospectives and Inspect & Adapt (I&A) events.
+Track these **macro metrics** at the *end of each iteration or Program Increment (PI) during Retrospectives and Inspect & Adapt (I&A) events.
 
 ### 1. Flow Efficiency
 $$\text{Flow Efficiency} = \left( \frac{\text{Active Development Time}}{\text{Total Cycle Time}} \right) \times 100\%$$
 * **Target:** $> 40\%$
 * **Purpose:** Identifies silent wait times (e.g., stories idling in "Pending Code Review" or "Awaiting Data Schema Approval").
 
-### 2. DORA Metrics
+### 2. DORA Metrics  (Engineering & Pipeline Health)
 * **Deployment Frequency:** How often code reaches production.
 * **Lead Time for Changes:** Duration from initial commit to running in production.
 * **Change Failure Rate (CFR):** Percentage of deployments requiring immediate hotfixes or rollbacks (Target: $< 15\%$).
 * **Mean Time to Restore (MTTR):** Average time needed to recover from a production build outage.
+ 
+| Metric | Definition | Target Goal |
+| :--- | :--- | :--- |
+| **Deployment Frequency (DF)** | How often code is successfully deployed to staging or production. | High frequency (daily/weekly) |
+| **Lead Time for Changes (LTC)** | The total duration from code commit to running live in production. | Short lead times (hours/days) |
+| **Change Failure Rate (CFR)** | The percentage of deployments causing pipeline or production failures. | Minimal rate (<10%) |
+| **Mean Time to Restore (MTTR)** | How fast the team recovers from an environment failure or outage. | Rapid recovery (<1 hour) |
 
+* **My Action:** I check CI/CD dashboards (*Azure Pipelines, GitHub Actions*) and *AWS CloudWatch* alerts regularly. If build failure rates or automated test suite execution times increase, I prioritize pipeline fixes during Retrospectives.
+---
 ### 3. Program Predictability Measure (PPM)
 $$\text{PPM} = \left( \frac{\text{Actual Delivered Points / Objectives}}{\text{Committed Points / Objectives}} \right) \times 100\%$$
 * **Target:** **85% – 90%** predictability across sprints and PIs.
 
 ---
 
-## 4. Daily Scrum Master Execution Routine
+
 
 ```text
 09:30 AM ──► Board & Pipeline Scan (Check WIP, flagged cards, broken CI builds)
