@@ -19,7 +19,7 @@ Rather than simply stopping cold turkey, guide the team into owning the process 
 
 1. Frame it as a Self-Organization Challenge (The "Why")
 
-Bring it up during a Retrospective or at the end of a DSU:
+Bring it up during a **Retrospective** or at the **end of a DSU**:
 "Team, the Daily Standup is your space to synchronize on our progress toward the Sprint Goal and spot blockers.
 To help us self-organize better and keep everyone engaged, I'd like us to take turns running the board and taking notes on action items or blockers."
 
@@ -51,4 +51,5 @@ While you aren't taking general meeting minutes, I, as a Scrum master should lis
 - [ ]Behavioral Patterns: Is someone constantly silent? Are scope items creeping in unannounced?
 - [ ]Offline Sync Needs: Write down who needs to talk after the DSU (e.g., "Alex and Sam need a 5-minute breakout on the API schema").
 
-This can be automated. While Jira natively does not have an AI listener built directly into live audio, I can integrate AI Meeting Assistants / Agents directly into our virtual meeting platform (Zoom, Microsoft Teams, Google Meet) and connect them to Jira via webhooks, automation, or native app integrations.
+IMPROVEMENTS !! 
+This can **be automated**. While Jira natively does not have an AI listener built directly into live audio, I can take an initiative or delegate to someone to integrate ***AI Meeting Assistants / Agents*** directly into our virtual meeting platform (Zoom, Microsoft Teams, Google Meet) and connect them to Jira via webhooks, automation, or native app integrations.
