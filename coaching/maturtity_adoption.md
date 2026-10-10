@@ -1,6 +1,6 @@
-##  Event-by-Event Coaching Playbook to transform my team toward SAFe
+##  Event-by-Event Coaching Guide to transform my team toward SAFe
 
-To coach my team to maturity, my actions during standard SAFe events must address the specific friction points of data engineering and analytics:
+To coach my team to maturity, my actions during standard SAFe events addresses the specific **friction points** of data engineering and analytics:
 
 | SAFe Cadence Event | Common Data Team Trap | Scrum Master Coaching Action |
 | :--- | :--- | :--- |
@@ -113,12 +113,4 @@ When a business feature requires data delivery, design it as a **Feature** with 
 
 ---
 
-## 4. Scrum Master Coaching Script for Team Ceremonies
 
-### During Backlog Refinement:
-* **Ask the PO:** *"Does this data request solve a repeatable business outcome, or is it a one-off quick fix? If it's a one-off, can we handle it via our 10% operational buffer or push it to a self-service tool?"*
-* **Ask the Data Engineer:** *"Do we have a agreed Data Contract (schema, inputs, SLAs) for this story, or do we need a 2-day Spike first?"*
-
-### During Daily Standup:
-* If a team member says: *"I spent yesterday pulling a quick query for marketing,"*
-* **Coach gently:** *"Let's make sure that work is visible on the board under our operational support buffer, and let's align with the PO if marketing needs this turned into a formal backlog item."*
