@@ -5,7 +5,7 @@ In the Scaled Agile Framework (SAFe), events (formerly called ceremonies) are or
 Below is the central index of event facilitation guides, coaching scripts, metrics, and checklists tailored for Data & Analytics teams. Click on any event to access its dedicated operational guide.
 
 ---
-03-ceremonies/
+**Ceremonies Guide** (./ceremonies/Cadence & Events.md)
 ├── 01-Backlog-refinement/
 ├── 02-Sprint-planning/
 ├── 03-Daily-standup/
@@ -20,15 +20,15 @@ Below is the central index of event facilitation guides, coaching scripts, metri
 
 These events occur during the 2-week Iteration cycle for each Agile Team:
 
-* [**Backlog Refinement**](./ceremonies/backlog-refinement/README.md)  
+* [**Backlog Refinement**](./ceremonies/refinement/refinement_workshops.md) 
   *Ongoing session where the Product Owner and squad review, slice, and size user stories against the Definition of Ready (DoR).*
-* [**Iteration Planning**](./ceremonies/sprint-planning/README.md)  
+* [**Iteration Planning**](./ceremonies/sprint-planning.md)  
   *Teams plan and commit to stories in the team backlog using the 70/20/10 capacity model to achieve the Iteration Goal.*
-* [**Team Sync (Daily Standup)**](./ceremonies/daily-standup/README.md)  
+* [**Team Sync (Daily Standup)**](./ceremonies/daily-standup.md)  
   *Daily 15-minute meeting to walk the board right-to-left, check progress toward the Iteration Goal, enforce WIP limits, and clear blockers.*
-* [**Iteration Review (Team Demo)**](./ceremonies/sprint-review/README.md)  
+* [**Iteration Review (Team Demo)**](./ceremonies/sprint-review.md)  
   *At the end of every iteration, the team demonstrates working pipelines, models, and dashboards to stakeholders for feedback.*
-* [**Iteration Retrospective**](./ceremonies/sprint-retrospective/README.md)  
+* [**Iteration Retrospective**](./ceremonies/retrospective.md)  
   *The team reflects on process, cycle time, quality metrics, and collaboration to define continuous improvement action items.*
 
 ---
