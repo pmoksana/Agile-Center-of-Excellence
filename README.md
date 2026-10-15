@@ -31,8 +31,12 @@
 ## 📊 Estimation (Best Practices)
 * [**Relative Sizing & Estimation Guide**](./framework/estimation.md)
   > Learn the 10 best practices for the team estimation, including **Planning Poker**, **WSJF**, and **T-Shirt Sizing**. This guide explains how to balance task complexity, developer experience, and codebase quality to create predictable delivery timelines.
-  > https://github.com/pmoksana/Agile-Center-of-Excellence/blob/main/framework/scrum/estimation.md
 
+##  Given_When_Then 
+[**Given-When-Then Guide**](./framework/scrum/estimation.md)
+ > Given-When-Then is the cornerstone syntax for Behavior-Driven Development (BDD) and Acceptance Test-Driven Development (ATDD). 
+It bridges the gap between business intent and technical implementation.
+   
 
 ## 🤝  Working Agreement
 *  [**Working Agreements Guidec(./Working-Agreements/working-agreement-TA.md/)
