@@ -41,6 +41,21 @@ Traditional Standup Question (Avoid)	SAFe 6 Flow-Centric Question (Use)
 "Do you have any blockers?"	>> "Are we still on track to achieve our Iteration Goals?"
 
 ---
+
+* **When Held:** Daily, at the start of the working day.
+* **Duration:** 15 Minutes.
+* **Goal & Value:** Syncs team alignment on iteration progress, surface bottlenecks immediately, and coordinates daily swarming to keep work flowing.
+* **Participants:** Agile Team (Software Engineers, Data Engineers, Data Analysts, QA), Product Owner, Scrum Master.
+* **Scrum Master Role:** Flow facilitator and impediment remover.
+* **What Scrum Master Checks:**
+  - [ ] Board walked **right-to-left** (closing open work before starting new work).
+  - [ ] Pull Requests (PRs) or schema reviews sitting idle for **> 24–48 hours**.
+  - [ ] Work items adhering to Work-In-Process (WIP) limits.
+  - [ ] Blockers flagged immediately for post-standup swarming sessions.
+* **Inspect & Adapt Element:** Daily micro-adjustments to execution plans based on current iteration burndown slopes and unexpected pipeline blocks.
+
+
+---
 ## SM Checklist: Refining & Evaluating Team Sync
 
 Checklist during and after Team Sync to evaluate whether the ceremony is producing value or slipping into anti-patterns.
