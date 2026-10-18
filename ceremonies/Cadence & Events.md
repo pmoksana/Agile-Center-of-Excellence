@@ -10,7 +10,7 @@ It details timing, duration, value, participants, and how **Inspect & Adapt (Con
 | Event / Activity | Frequency / Timing | Duration | Key Participants | Scrum Master Role |
 | :--- | :--- | :--- | :--- | :--- |
 | **PI Planning** | Once per PI (Start of PI) | 2 Full Days | Entire ART, RTE, PM, System Architect, Business Owners | Facilitates team breakouts, manages risks, enforces capacity limits |
-| **Daily Standup (DS)** | Daily (Every morning) | 15 Minutes | Team (Devs, Data, QA), PO, SM | Facilitates right-to-left board walk, identifies blockers and aging work |
+| **Team sync (DS)** | Daily (Every morning) | 15 Minutes | Team (Devs, Data, QA), PO, SM | Facilitates right-to-left board walk, identifies blockers and aging work |
 | **Backlog Refinement** | 1–2 times per Sprint | 60 Minutes | PO, SM, Agile Team (Devs, Data, QA) | Enforces Definition of Ready (DoR), max 8-pt sizing, data contracts |
 | **Iteration Review / Demo** | End of every Iteration | 60 Minutes | Team, PO, SM, Business Stakeholders | Ensures objective, working software/pipeline demos (no PowerPoint) |
 | **Iteration Retrospective** | End of every Iteration | 45–60 Minutes | Scrum Master, PO, Agile Team | Facilitates root-cause analysis, adds 1–2 retro items to next backlog |
@@ -38,7 +38,7 @@ It details timing, duration, value, participants, and how **Inspect & Adapt (Con
 
 ---
 
-### 2. Daily Standup (DS)
+### 2. Team sync (DS) * [**Team Sync (Dayly)**](./ceremonies/team_sync.md) 
 
 * **When Held:** Daily, at the start of the working day.
 * **Duration:** 15 Minutes.
