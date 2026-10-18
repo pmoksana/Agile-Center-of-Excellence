@@ -1,10 +1,8 @@
-# Agile Transformation Playbook
+# Agile Transformation Guide 
 
 
 [⬅️ Back to Main Guide](../../)
 ---
-
-
 
 
 ##  Product Owner: Role & Best Practices
@@ -24,7 +22,7 @@ The Product Owner is the **sole person accountable** for the success of the prod
 
 ---
 
-## 🤖 The AI-Oriented Product Owner (Modern Improvement)
+##  The AI-Oriented Product Owner (Modern Improvement)
 Integrating AI into the PO workflow allows for faster data processing and more strategic decision-making.
 
 | ⚡ Traditional Workflow | 🤖 AI-Oriented Improvement |
@@ -36,7 +34,7 @@ Integrating AI into the PO workflow allows for faster data processing and more s
 
 ---
 
-## 🛠️ Essential Artifacts & Techniques
+##  Essential Artifacts & Techniques
 The PO uses specific tools to define the product journey and manage scope.
 
 ### 1. Product Definition Tools
@@ -52,10 +50,14 @@ The PO orders the **Product Backlog**—the single source of requirements—usin
 * **Pareto Principle (80/20):** Focusing on the 20% of work that delivers 80% of the value.
 * **Business Criticality:** Ordering by business value, urgency, and risk mitigation.
 
----
+----
+### Economic Metrics (WSJF):
+Teach your POs to justify their priorities using **WSJF** (Cost of Delay divided by Job Size). If a technical item has a massive Cost of Delay (e.g., if we don't fix this broken pipeline, data ingestion stops for all clients), it rightfully moves to the top. If it's just "nice-to-have tech refactoring" with low business impact, it ranks lower. This gives the PO objective power to push back on team preferences.
 
-## 📊 Measuring Success (Tableau KPI Dashboard)
-Use **Tableau** to visualize these critical metrics and ensure data-driven transparency.
+----
+
+##  Measuring Success (Tableau KPI Dashboard)
+Use **Tableau** to visualize these critical metrics and ensure data-driven transparency:
 
 * **Product Value Score (ROI):** Assessment of business benefit delivered versus development effort.
 * **Cycle Time:** Measuring the speed from "Idea" to "Done" to track delivery efficiency.
