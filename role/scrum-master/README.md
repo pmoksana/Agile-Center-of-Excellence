@@ -123,7 +123,7 @@ The Scrum Master uses objective metrics to track, display, and continuously impr
 ## 4. Daily Operational Flow Checklist for the Scrum Master
 
 ```markdown
-### Daily Standup (15 Mins) - Walk the Board Right-to-Left
+### Team sync (15 Mins) - Walk the Board Right-to-Left
 - [ ] **Step 1: Check Done / Validation Column**
       - Are completed items verified against DoD and dbt/Airflow tests passed?
 - [ ] **Step 2: Check PR / In Review Column**
