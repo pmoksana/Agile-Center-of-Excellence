@@ -8,7 +8,7 @@ Below is the central index of event facilitation guides, coaching scripts, metri
 **Ceremonies Guide** (./ceremonies/Cadence & Events.md)
 ├── 01-Backlog-refinement/
 ├── 02-Sprint-planning/
-├── 03-Daily-standup/
+├── 03-Team sync/
 ├── 04-Sprint-review/
 ├── 05-Sprint-retrospective/
 ├── 06-PI-planning/
@@ -24,7 +24,7 @@ These events occur during the 2-week Iteration cycle for each Agile Team:
   *Ongoing session where the Product Owner and squad review, slice, and size user stories against the Definition of Ready (DoR).*
 * [**Iteration Planning**](./ceremonies/sprint-planning.md)  
   *Teams plan and commit to stories in the team backlog using the 70/20/10 capacity model to achieve the Iteration Goal.*
-* [**Team Sync (Daily Standup)**](./ceremonies/daily-standup.md)  
+* [**Team Sync (Dayly)**](./ceremonies/team_sync.md)  
   *Daily 15-minute meeting to walk the board right-to-left, check progress toward the Iteration Goal, enforce WIP limits, and clear blockers.*
 * [**Iteration Review (Team Demo)**](./ceremonies/sprint-review.md)  
   *At the end of every iteration, the team demonstrates working pipelines, models, and dashboards to stakeholders for feedback.*
