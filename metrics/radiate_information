@@ -1,0 +1,84 @@
+# Coach Transparency Guide
+
+> **Role:** Scrum Master / Agile Coach  
+> **Framework:** SAFe 6.0 (Scaled Agile Framework)  
+> **Objective:** Maximize team alignment, transparency, and relentless improvement by making all SAFe 6.0 artifacts, metrics, and goals constantly visible to the team.
+
+---
+
+## Core Principle: "Radiate Information"
+
+In a SAFe transformation, hidden information creates confusion, friction, and missed commitments. As a Scrum Master, your job is to build **Information Radiators**—visual dashboards and physical/digital spaces where the team sees goals, blockers, metrics, and commitments without having to search for them.
+
+---
+
+## Comprehensive SAFe 6.0 Visibility Matrix
+
+| Category | SAFe 6.0 Artifact / Element | What it Contains & Why it Matters | Where it Must Be Displayed (100% Visibility) |
+| :--- | :--- | :--- | :--- |
+| **Iteration Level** *(Short-Term)* | **Iteration Goals (Sprint Goals)** | • 1 to 3 business-focused objectives for the current iteration.<br>• Aligns the team on value rather than individual user stories. | • **Jira Board Header:** Custom banner or pinned issue at the top.<br>• **Daily Sync Board:** Top-left banner on digital or physical board.<br>• **Slack/Teams Channel:** Pinned message in team chat. |
+| | **Iteration Backlog & WIP** | • All Committed User Stories, Enablers, Bugs, and Spikes.<br>• Real-time progress (`To Do` $\rightarrow$ `In Progress` $\rightarrow$ `Review` $\rightarrow$ `Done`). | • **Active Sprint Board:** Real-time digital board (Jira/Azure DevOps).<br>• **WIP Limits Display:** Explicit numbers above `In Progress` and `Review` columns. |
+| | **Definition of Done (DoD) & Definition of Ready (DoR)** | • Clear quality gates for acceptance (e.g., unit tests passed, code review complete, data quality validated). | • **Jira Board Sidebar / Header link**.<br>• **Confluence / Wiki Team Page** (quick reference widget).<br>• Physical poster near the team area (if co-located). |
+| **PI Level** *(Program Increment)* | **Team PI Objectives** | • Summary of business and technical goals for the full 8–12 week PI.<br>• Differentiates **Committed Objectives** vs. **Uncommitted Objectives**. | • **Program Room / ART Board:** Dedicated widget or panel.<br>• **Team Dashboard:** Top widget on the primary dashboard.<br>• **Confluence Home Page:** Pinned at the top of the PI space. |
+| | **Team ROAM Risks** | • Identified risks classified into: **Resolved**, **Owned**, **Accepted**, or **Mitigated**. | • **ART Risk Board** (Jira / Mural / Miro).<br>• **Retrospective Board:** Reviewed during iteration retrospectives. |
+| | **Program Board & Dependencies** | • Cross-team features, milestones, and cross-team dependency lines. | • **Jira Align Program Board** or **Miro ART Board**.<br>• Reviewed during Daily Sync and ART Sync. |
+| **Flow & Quality Metrics** | **Flow Metrics Dashboard** | • **Flow Velocity:** Completed story points per iteration.<br>• **Flow Time (Cycle Time):** Days from start to release.<br>• **Flow Load (WIP):** Count of active items.<br>• **Flow Predictability:** Achieved vs. Planned PI value. | • **Jira Flow Dashboard:** Automatically updated visual graphs.<br>• **Iteration Retrospective Board:** Reviewed every 2 weeks.<br>• **Sprint Review / System Demo Slides**. |
+| **Continuous Improvement** | **Kaizen / Action Items** | • High-priority action items originating from Iteration Retrospectives and Inspect & Adapt (I&A) workshops. | • **Iteration Backlog:** Inserted as top-priority user stories in the sprint.<br>• **Retro Board Column:** Dedicated `Improvement Items` tracker. |
+| **Product & Vision** | **Feature Backlog & Roadmaps** | • Upcoming features, WSJF (Weighted Shortest Job First) rankings, and PI Roadmaps. | • **Product Owner Board:** Refinement dashboard.<br>• **Confluence Product Space:** Visible to all team members and business owners. |
+
+---
+
+##    How to Set Up Visual Transparency
+
+### 1. Configure the Jira Active Sprint Board (Daily Focus)
+* **WIP Limits:** Set explicit Work-in-Progress (WIP) column limits in Jira Board Settings (`Board Settings` $\rightarrow$ `Columns`). The column banner turns red when overloaded.
+* **Sprint Goal Banner:** Enable Jira's native **Sprint Goal** field so it displays directly at the top of the active board.
+* **Quick Filters:** Create one-click filters on the board for:
+  - `My Issues`
+  - `Blockers / Flagged`
+  - `Data Debt / Enablers`
+  - `Unassigned WIP`
+
+### 2. Set Up a Shared "SAFe Information Radiator" Dashboard
+Create a central **Jira Dashboard** named `[Team Name] - SAFe Command Center` and share it with the team and stakeholders. Add the following gadgets:
++-----------------------------------------------------------------------+
+|                       TEAM SAFe COMMAND CENTER                        |
++------------------------------------+----------------------------------+
+|  GADGET 1: Sprint Health           |  GADGET 2: Iteration Goals       |
+|  (Bar chart of WIP & Blockers)     |  (Text Widget / Pinned List)     |
++------------------------------------+----------------------------------+
+|  GADGET 3: Cumulative Flow (CFD)   |  GADGET 4: Flow Velocity         |
+|  (Flow Load & Queues)              |  (Commitment vs. Actual)         |
++------------------------------------+----------------------------------+
+|  GADGET 5: Created vs Resolved     |  GADGET 6: Open Kaizen Actions   |
+|  (Throughput Balance)              |  (Retrospective Actions Tracker) |
++------------------------------------+----------------------------------+
+
+
+### 3. Establish the "One-Touch" Team Space in Confluence
+Create a structured Confluence / Wiki page hierarchy:
+* `📁 Team Home`
+  * `📄 Team Charter & Working Agreements`
+  * `📄 Definition of Done (DoD) & Definition of Ready (DoR)`
+  * `📁 PI Planning Space (PI Objectives, Capacity & ROAM Risks)`
+  * `📁 Iteration Retrospectives & Kaizen Actions`
+
+---
+
+##  Coaching Checklist for SAFe Transformation
+
+For oaching sessions to verify full visual alignment:
+
+- [ ] **Are Sprint Goals visible during every Daily Sync without switching screens?**
+- [ ] **Can team members identify blocked items within 3 seconds of looking at the board?**
+- [ ] **Are Team PI Objectives accessible and known by all team members (not just the PO)?**
+- [ ] **Is the Definition of Done explicitly checked before moving any story to `Done`?**
+- [ ] **Are Retrospective Action Items placed directly into the Sprint Backlog as actionable stories?**
+- [ ] **Is Flow Efficiency / Cycle Time reviewed openly in every Iteration Retrospective?**
+
+---
+
+## Pro-Tip for Agile Coaching
+
+> **"If an artifact isn't visible during daily work, it doesn't exist."**  
+> Don't let PI Objectives or DoD sit in closed PDF files or hidden folders. Embed live links, Jira gadgets, and automated Slack/Teams bots to bring data directly into the team's daily workspace!
