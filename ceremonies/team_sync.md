@@ -73,6 +73,10 @@ Checklist during and after Team Sync to evaluate whether the ceremony is produci
 
 [ ] Is an automated timer ready to enforce the 15-minute timebox?
 
+* **Walk the Board:** Facilitate board walk-throughs **right-to-left** (focus on finishing open work before pulling new work).
+* **Check Pipeline Health:** Review open Pull Request (PR) turnaround times and check active CI/CD build failure alerts.
+* **Unblock Flow:** Identify blocked items and host immediate post-standup **swarming sessions** to resolve technical roadblocks.
+
 
 # Phase 2: Execution Checklist (During Sync)
 [ ] Right-to-Left Focus: Does the team start reviewing items in Testing/Review before looking at In Progress or To Do?
@@ -84,7 +88,7 @@ Checklist during and after Team Sync to evaluate whether the ceremony is produci
 [ ] Meet-After Parking Lot: Are deep-dive technical discussions parked for the post-sync session without interrupting the 15-minute flow?
 
 
-# Phase 3: Evaluation Checklist — How Valuable & Productive is Your Sync?
+# Phase 3: Evaluation Checklist — How Valuable & Productive is my team Sync?
 Evaluate your team’s Team Sync maturity every 2–4 weeks using this scorecard:
 
 Evaluation Criteria	🔴 Red Flag (Needs Coaching)	🟡 Yellow Flag (Improving)	🟢 Green Light (High Value)
