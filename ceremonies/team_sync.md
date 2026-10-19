@@ -67,9 +67,9 @@ Checklist during and after Team Sync to evaluate whether the ceremony is produci
 # Phase 1: Preparation & Setup Checklist (Before Sync)
 [ ] Is the digital Kanban/Scrum board (Jira/Azure DevOps) fully up to date prior to the call?
 
-[ ] Are active WIP limits visually defined and visible to all squad members?
+[ ] Are active WIP limits visually **defined and visible** to all squad members?
 
-[ ] Is the current Iteration Goal clearly displayed at the top of the board?
+[ ] Is the current **Iteration Goal** clearly displayed at the top of the board?
 
 [ ] Is an automated timer ready to enforce the 15-minute timebox?
 
@@ -118,7 +118,7 @@ Sync finishes in ≤15 minutes; team transitions cleanly into a 5–10 minute fo
 
 "Team, in SAFe 6, our Team Sync isn’t a daily status update where we prove we’ve been busy - it’s our **daily strategy session to win the sprint**.
 
-We start from the right: We look at what is closest to production - like Pull Requests, BDD test validations, or schema reviews—and ask: 'How do we get this to Done today?'
+We start from the right: We look at what is closest to production - like Pull Requests, BDD test validations, or schema reviews—and ask: **'How do we get this to Done today?'**
 We protect our flow: If something is stuck, we swarm on it together instead of opening another story and overloading our WIP.
-We keep it tight: We stick to our 15-minute timebox for alignment, and take deep-dive technical problem-solving into our **'Meet-After' session.**
+We keep it tight: We stick to our 15-minute timebox for alignment, and take deep-dive technical problem-solving into our **'Meet-After'session.**
 When we run our Team Sync this way, we keep our pipeline moving, remove blockers fast, and consistently hit our Iteration Goals!
