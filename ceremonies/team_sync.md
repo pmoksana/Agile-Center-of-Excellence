@@ -1,4 +1,4 @@
-## Team Coach Guide: Facilitating & Evaluating Team Sync in SAFe 6
+## Team Sync (Facilitating & Evaluating)
 
 In SAFe 6, the **Team Sync** replaces the traditional "Daily Standup" to emphasize:
 **flow, objective alignment, and dynamic** replanning over static status reporting. 
