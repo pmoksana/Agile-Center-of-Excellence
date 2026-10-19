@@ -1,7 +1,9 @@
 ## Team Coach Guide: Facilitating & Evaluating Team Sync in SAFe 6
 
-In SAFe 6, the **Team Sync** replaces the traditional "Daily Standup" to emphasize **flow, objective alignment, and dynamic** replanning over static status reporting. 
-It is a short, daily 15-minute event for the Agile Team to **evaluate progress toward Iteration Goals, identify flow bottlenecks, and adjust the daily plan.**
+In SAFe 6, the **Team Sync** replaces the traditional "Daily Standup" to emphasize:
+**flow, objective alignment, and dynamic** replanning over static status reporting. 
+
+It is a short, daily 15-minute event for the Agile Team to **evaluate Progress toward Iteration Goals, identify flow Bottlenecks, and adjust the daily plan.**
 
 
  <<Maturity level teams knows that *Daily 15-minute meeting to walk the board right-to-left, check progress toward the Iteration Goal, enforce WIP limits, and clear blockers.<<
@@ -87,10 +89,17 @@ Evaluate your team’s Team Sync maturity every 2–4 weeks using this scorecard
 
 Evaluation Criteria	🔴 Red Flag (Needs Coaching)	🟡 Yellow Flag (Improving)	🟢 Green Light (High Value)
 
-Focus & Orientation	Team members report individual updates to the SM/PO.	Team members talk to each other but focus strictly on tasks.	Team walks the board right-to-left, focusing on closing stories and achieving Iteration Goals.
-WIP Management	Work in Progress continuously exceeds limits; many stories open simultaneously.	WIP limits are respected, but individual silos persist.	Team swarms on stymied stories to pull them to "Done" before starting new work.
-Impediment Handling	Blockers are hidden, ignored, or debated for 10+ minutes during the sync.	Blockers are identified, but no clear owner or escalation plan is named.	Blockers are tagged instantly, logged, parked for the "Meet-After," and assigned an owner or escalated to the RTE.
-Timeboxing & Engagement	Sync regularly runs past 15 minutes; team members tune out.	Sync hits 15 minutes, but parking lot discussions bleed into the main call.	Sync finishes in ≤15 minutes; team transitions cleanly into a 5–10 minute focused "Meet-After."
+Focus & Orientation	Team members report individual updates to the SM/PO.
+Team members talk to each other but focus strictly on tasks.
+Team walks the board right-to-left, focusing on closing stories and achieving Iteration Goals.
+WIP Management	Work in Progress continuously exceeds limits; many stories open simultaneously.	
+WIP limits are respected, but individual silos persist.
+Team swarms on stymied stories to pull them to "Done" before starting new work.
+Impediment Handling	Blockers are hidden, ignored, or debated for 10+ minutes during the sync.	Blockers are identified, but no clear owner or escalation plan is named.	
+Blockers are tagged instantly, logged, parked for the "Meet-After," and assigned an owner or escalated to the RTE.
+Timeboxing & Engagement	Sync regularly runs past 15 minutes; team members tune out.	
+Sync hits 15 minutes, but parking lot discussions bleed into the main call.	
+Sync finishes in ≤15 minutes; team transitions cleanly into a 5–10 minute focused "Meet-After."
 
 
 ### TEAM SYNC (15 Mins) - Walk the Board Right-to-Left
